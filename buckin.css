@@ -265,35 +265,23 @@ p {
   width: 5rem;
   border-radius: 50%;
   transform: rotate(-24deg);
-  right: 50px;
-  margin-bottom: 12px;
+  right: 28px;
+  margin-bottom: 26px;
+  display: none;
 }
 
 #round-title span {
   font-family: "Recoleta-Bold";
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-kerning: normal;
   /* font: 26px Monaco, MonoSpace; */
-  height: 190px;
+  height: 155px;
   position: absolute;
   width: 20px;
   left: 0;
   top: 0;
   transform-origin: bottom center;
 }
-
-/* .char1 { transform: rotate(6deg); }
-.char2 { transform: rotate(12deg); }
-.char3 { transform: rotate(18deg); }
-.char4 { transform: rotate(24deg); }
-.char5 { transform: rotate(30deg); }
-.char6 { transform: rotate(36deg); }
-.char7 { transform: rotate(42deg); }
-.char8 { transform: rotate(48deg); }
-.char9 { transform: rotate(54deg); }
-.char10 { transform: rotate(60deg); }
-.char11 { transform: rotate(66deg); }
-.char12 { transform: rotate(72deg); } */
 
 .char1 { transform: rotate(4deg); }
 .char2 { transform: rotate(8deg); }
@@ -308,14 +296,15 @@ p {
 .char11 { transform: rotate(45deg); }
 
 .logo-contain h3 {
-  font-size: 1.15rem;
+  font-size: 0.9rem;
   font-weight: 800; 
   display: none;
+  transform: translate(0.5px, -5px);
 }
 
 .logo {
-  width: 50px;
-  /* margin-top: -7px; */
+  width: 100px;
+  margin-top: -45px;
   justify-self: center;
 }
 
@@ -424,6 +413,10 @@ nav a:hover {
 }
 
 @media screen and (min-width: 950px) {
+  #round-title {
+    display: block;
+  }
+
   .nav-toggle-label {
     display: none;
   }
