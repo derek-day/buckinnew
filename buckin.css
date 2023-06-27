@@ -384,7 +384,6 @@ nav a:hover {
   .logo-contain h3 {
     display: block;
   }
-
     
   nav {      
     position: relative;
@@ -933,11 +932,13 @@ footer img {
 .footer-links a {
   color: #E5D8B2;
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1rem;
   text-transform: uppercase;
   transition: opacity 150ms ease-in-out;
-  font-family: "Rokkitt";
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
+  font-kerning: normal;
+  font-family: "Recoleta-SemiBold";
+  font-weight: 500;
 }
 
 .footer-links a:hover {
