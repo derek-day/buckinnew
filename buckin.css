@@ -601,7 +601,8 @@ section {
 }
 
 #home2 {
-  background-image:  url('wavy.jpg');
+  /* background-image:  url('owavey.png'); */
+  /* background-image:  url('wavy.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   top: 0.5em;
