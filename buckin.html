@@ -7,6 +7,8 @@
     <title>Buckin' Bean Coffee Co. | Bringing the Brew to You</title>
     <link rel="stylesheet" href="buckin.css">
     <link rel="stylesheet" href="https://use.typekit.net/cqk7itg.css"> 
+    <script src="jquery.js"></script>
+    <script src="jquery.lettering.js"></script>
   </head>
   <body class="preload">
     
@@ -26,9 +28,29 @@
     
     <div id="header">
       <div class='logo-contain'>
+        <!-- <a style="display: contents;" href="#home"><img class="logo" src="logo.png"></a>
+        <h3 style="inline-size: fit-content; margin-top: 5px;">Buckin' Bean Coffee Co.</h3> -->
+
+        <!-- <h1 id="round-title">
+          <span class="char1">B</span>
+          <span class="char2">u</span>
+          <span class="char3">c</span>
+          <span class="char4">k</span>
+          <span class="char5">i</span>
+          <span class="char6">n</span>
+          <span class="char7">'</span>
+          <span class="char8"> </span>
+          <span class="char9">B</span>
+          <span class="char10">e</span>
+          <span class="char11">a</span>
+          <span class="char12">n</span>
+        </h1> -->
+
+        <h1 id="round-title">Buckin'Bean</h1>
+        <!-- <h3>Coffee Co.</h3> -->
+        <!-- <h3 style="inline-size: fit-content;">Buckin' Bean Coffee Co.</h3> -->
         <a style="display: contents;" href="#home"><img class="logo" src="logo.png"></a>
-        <!-- <h3 style="inline-size: fit-content; margin-top: 5px;">BUCKIN' BEAN COFFEE CO.</h3> -->
-        <h3 style="inline-size: fit-content; margin-top: 5px;">Buckin' Bean Coffee Co.</h3>
+        <h3>Coffee Co.</h3>
       </div>
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <nav>
@@ -262,6 +284,7 @@
 
     </footer>
 
+    <script>$("#round-title").lettering();</script>
     <script>document.body.classList.remove('preload')</script>
     <script src="buckin.js"></script>
   </body>
