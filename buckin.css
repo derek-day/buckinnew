@@ -160,7 +160,7 @@ button,
 }
 
 nav a {
-  font-family: "Recoleta-SemiBold";
+  font-family: "Recoleta-Bold";
   font-weight: 700;
 }
 
@@ -267,6 +267,7 @@ p {
   transform: rotate(-24deg);
   right: 28px;
   margin-bottom: 26px;
+  margin-top: 5px;
   display: none;
 }
 
@@ -283,7 +284,7 @@ p {
   transform-origin: bottom center;
 }
 
-.char1 { transform: rotate(4deg); }
+/* .char1 { transform: rotate(4deg); }
 .char2 { transform: rotate(8deg); }
 .char3 { transform: rotate(12deg); }
 .char4 { transform: rotate(16deg); }
@@ -293,18 +294,31 @@ p {
 .char8 { transform: rotate(33deg); }
 .char9 { transform: rotate(37deg); }
 .char10 { transform: rotate(41deg); }
+.char11 { transform: rotate(45deg); } */
+
+.char1 { transform: rotate(4deg); }
+.char2 { transform: rotate(8.4deg); }
+.char3 { transform: rotate(12.6deg); }
+.char4 { transform: rotate(17deg); }
+.char5 { transform: rotate(20.2deg); }
+.char6 { transform: rotate(23.8deg); }
+.char7 { transform: rotate(27deg); }
+.char8 { transform: rotate(32deg); }
+.char9 { transform: rotate(36.2deg); }
+.char10 { transform: rotate(40.4deg); }
 .char11 { transform: rotate(45deg); }
 
+
 .logo-contain h3 {
-  font-size: 0.9rem;
+  font-size: 0.72rem;
   font-weight: 800; 
   display: none;
-  transform: translate(0.5px, -5px);
+  transform: translate(-0.5px, -3px);
 }
 
 .logo {
   width: 100px;
-  margin-top: -45px;
+  margin-top: -42px;
   justify-self: center;
 }
 
@@ -387,12 +401,13 @@ nav li {
 nav a {
   color: black;
   text-decoration: none;
-  font-size: 1rem;
+  /* font-size: 1rem; */
+  font-size: 1.2rem;
   font-kerning: normal;
   letter-spacing: 0.3px;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
-}  
+}
 
 nav a:nth-last-child() {
   background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a;
@@ -485,7 +500,8 @@ nav a:hover {
     align-items: center;
     width: 100%;
     justify-items: center;
-    padding: 100px 10% 0px !important; 
+    /* padding: 100px 10% 0px !important;  */
+    padding: 170px 10% 0px !important; 
   }  
 
   .introtext {
@@ -597,7 +613,7 @@ section {
   background-image:  url('yellow.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  top: 0.5em;
+  /* top: 0.5em; */
 }
 
 #home2 {
@@ -605,7 +621,7 @@ section {
   /* background-image:  url('wavy.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
-  top: 0.5em;
+  /* top: 0.5em; */
 }
 
 .bullgap {
@@ -637,7 +653,8 @@ section {
   overflow: hidden;
   position: relative;
   float: right;
-  margin-top: 0px;
+  margin-top: 4em;
+  margin-bottom: 4em; 
 }
 
 .bullgaprev div {
@@ -685,7 +702,7 @@ section {
   text-align: center;
   letter-spacing: 1px;
   font-kerning: normal;
-  line-height: 1.05em;
+  line-height: 0.95em;
 }
 
 .hometext {
@@ -696,7 +713,8 @@ section {
 .btn-style {
   background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a;
   transition: background-color 1s;
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
+  padding: 10px 15px;
   border-radius: 0.5rem;
 
 }
@@ -840,7 +858,7 @@ img {
 }
 
 #about {
-  margin-bottom: 6em;
+  /* margin-bottom: 6em; */
 }
 
 #menu {
