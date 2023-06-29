@@ -98,6 +98,11 @@
 }
 
 @font-face {
+  font-family: "Primana";
+  src: url('Primana.ttf') format("truetype");
+}
+
+@font-face {
   font-family: "Facultad";
   src: url('Facultad.otf') format("opentype");
 }
@@ -121,7 +126,8 @@ body {
     font-family: system-ui;
     font-size: 1.125rem;
     line-height: 1.5;
-    background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD);
+    /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
+    background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
     background-position: 0 0,0 0;
     background-size: auto, auto;
 }
@@ -160,8 +166,10 @@ button,
 }
 
 nav a {
-  font-family: "Recoleta-Bold";
-  font-weight: 700;
+  /* font-family: "Recoleta-Bold";
+  font-weight: 700; */
+
+  font-family: "Primana";
 }
 
 p,
@@ -236,8 +244,9 @@ p {
   text-align: center;
   z-index: 999;
   width: 100%;
-  padding-bottom: 10px;
-  padding-top: 6px;
+  /* padding-bottom: 12px;
+  padding-top: 12px; */
+  padding: 20px 0 20px;
 }
 
 /* .logo-contain {
@@ -316,11 +325,52 @@ p {
   transform: translate(-0.5px, -3px);
 }
 
-.logo {
+/* .logo {
   width: 100px;
   margin-top: -42px;
   justify-self: center;
+} */
+
+.navi-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
+
+.navi-list li:not(.centered-logo) {
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.logo {
+  width: 170px;
+  /* margin-top: -42px; */
+  margin-top: -45px;
+  border-radius: 50%;
+  justify-self: center;
+   /* background: grey; */
+   /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
+   background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
+   background-position: 0 0,0 0;
+   background-size: auto, auto;
+ 
+   /* color: white; */
+   /* padding: 10px; */
+   padding: 4px;
+   left: 50%;
+   top: 0;
+   /* margin-left: 60px !important; */
+   margin-left: -60px !important;
+   /* margin-left: -2em !important; */
+   animation: returnToOrigin 0.5s ease-out forwards;
+  animation-delay: 0.1s;
+  opacity: 0;
+  transition: fill 600ms cubic-bezier(0.215, 0.61, 0.355, 1),opacity 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+
+}
+
 
 #cover {
   position:absolute;
@@ -328,7 +378,8 @@ p {
   bottom:0;
   left:0;
   right:0;
-  background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD);
+  /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
+  background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
   background-position: 0 0,0 0;
   background-size: auto, auto;
   z-index:-100;
@@ -384,7 +435,8 @@ nav {
   transform: scale(1, 0);
   transform-origin: top;
   transition: transform 400ms ease-in-out;
-  background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD);
+  /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
+  background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
 }
   
 nav ul {
@@ -393,16 +445,17 @@ nav ul {
   list-style: none;
 }
   
-nav li {
+/* nav li {
   margin-bottom: 1em;
   margin-left: 1em;
-}
+} */
   
 nav a {
   color: black;
   text-decoration: none;
   /* font-size: 1rem; */
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
+  font-size: 1.25rem;
   font-kerning: normal;
   letter-spacing: 0.3px;
   opacity: 0;
@@ -412,6 +465,44 @@ nav a {
 nav a:nth-last-child() {
   background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a;
 }
+
+/* nav li:nth-child(2) {
+  padding-right: 90px;
+  margin-left: -45px;
+}
+
+nav li:nth-child(4) {
+  padding-left: 90px;
+  margin-right: -45px;
+} */
+
+nav li:nth-child(1) {
+  /* padding-right: -100px; */
+  /* margin-left: 2em; */
+}
+
+
+nav li:nth-child(2) {
+  /* margin-right: 10px;
+  padding-left: 20px; */
+  margin-right: 100px;
+  margin-left: 0px;
+  padding-left: 40px;
+}
+
+nav li:nth-child(4) {
+  /* padding-left: 0px; */
+  /* margin-left: 0px; */
+  margin-left: 100px;
+  margin-right: -20px;
+  padding-right: 0px;
+}
+
+nav li:nth-child(5) {
+  /* padding-right: -100px; */
+  /* margin-right: 2em; */
+}
+
   
 nav a:hover {
   text-decoration: underline;
@@ -450,10 +541,10 @@ nav a:hover {
     display: block;
   }    
   
-  #header {
+  /* #header {
     display: grid;
     grid-template-columns: 2fr auto minmax(600px, 3fr) 1fr;
-  }
+  } */
     
   .logo-contain h3 {
     display: block;
@@ -466,11 +557,11 @@ nav a:hover {
     transform: scale(1,1);
     background: none;
     top: initial;
-    left: -4em;
+    /* left: -4em;
     grid-column: 3/5;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center; */
   }
     
   nav ul {
@@ -478,7 +569,7 @@ nav a:hover {
   }
     
   nav li {
-    margin-left: 3em;
+    margin-left: 2em;
     margin-bottom: 0;
   }
     
@@ -600,7 +691,8 @@ section {
   align-items: center;
   width: 100%;
   height: 85dvh;
-  background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD);
+  /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
+  background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
   background-position: 0 0,0 0;
   background-size: auto, auto;
   animation: returnToOrigin 0.5s ease-out forwards;
@@ -712,18 +804,21 @@ section {
 }
 
 .btn-style {
-  background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a;
+  /* background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a; */
+  background-color: #ff9e3a;
+  color: var(--txt-color-dark);
   transition: background-color 1s;
   /* padding: 5px 10px; */
   padding: 10px 15px;
   border-radius: 0.5rem;
-
 }
 
 .btn-style:hover,
 .btn-style:focus,
 .btn-style:focus-within {
-  background-color: #ffc55a;
+  /* background-color: #ffc55a; */
+  background: var(--txt-color-dark);
+  color: #fff;
 }
 
 .btn {
@@ -731,6 +826,7 @@ section {
   padding: 15px 20px;
   /* background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a;
   color: var(--txt-color-dark); */
+  /* background: url("cow.jpg") no-repeat scroll 0 0 transparent; */
   background: var(--txt-color-dark);
   color: #fff;
   font-kerning: normal;
@@ -747,6 +843,9 @@ section {
 .btn:focus-within {
   /* background-color: #ffc55a; */
   background-color: #ff9e3a;
+  color: var(--txt-color-dark);
+  font-family: "Recoleta-Bold";
+  letter-spacing: 0.2px;
 }
 
 main {
