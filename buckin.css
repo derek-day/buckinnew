@@ -715,17 +715,35 @@ section {
   background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
   background-position: 0 0,0 0;
   background-size: auto, auto;
-  animation: returnToOrigin 0.5s ease-out forwards;
+  animation: returnToOrigin 0.5s ease-out forwards, scroll 50s linear infinite;
   animation-delay: 0.1s;
   transition: fill 600ms cubic-bezier(0.215, 0.61, 0.355, 1),opacity 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
   opacity: 0;
 }
 
 #home1 {
+  background: url('yellow.jpg');
   background-image:  url('yellow.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  /* animation: scroll 100s linear infinite;
+  perspective: 1000px;
+  perspective-origin: 50% 50%; */
+
   /* top: 0.5em; */
+}
+
+@keyframes scroll {
+  100% {
+    background-position: 0px -400%;
+  }
+}
+
+/* Fallback if the operatring system prefers reduced motion*/
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 800s linear infinite;
+  }
 }
 
 #home2 {
