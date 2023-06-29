@@ -103,6 +103,11 @@
 }
 
 @font-face {
+  font-family: "Primana Thin";
+  src: url('Primana Thin.ttf') format("truetype");
+}
+
+@font-face {
   font-family: "Facultad";
   src: url('Facultad.otf') format("opentype");
 }
@@ -174,8 +179,14 @@ nav a {
 
 p,
 textarea {
-  font-family: "RecoletaAlt-Regular";
-  font-weight: 500;
+  /* font-family: "RecoletaAlt-Regular"; */
+  font-family: "Primana Thin";
+  /* font-weight: 500; */
+}
+
+p {
+  letter-spacing: -0.2px;
+  /* text-wrap: balance; */
 }
 
 body,
@@ -246,7 +257,8 @@ p {
   width: 100%;
   /* padding-bottom: 12px;
   padding-top: 12px; */
-  padding: 20px 0 20px;
+  /* padding: 10px 0 10px; */
+  padding: 22px 0 22px;
 }
 
 /* .logo-contain {
@@ -293,17 +305,12 @@ p {
   transform-origin: bottom center;
 }
 
-/* .char1 { transform: rotate(4deg); }
-.char2 { transform: rotate(8deg); }
-.char3 { transform: rotate(12deg); }
-.char4 { transform: rotate(16deg); }
-.char5 { transform: rotate(20deg); }
-.char6 { transform: rotate(24deg); }
-.char7 { transform: rotate(27deg); }
-.char8 { transform: rotate(33deg); }
-.char9 { transform: rotate(37deg); }
-.char10 { transform: rotate(41deg); }
-.char11 { transform: rotate(45deg); } */
+.mobile-logo {
+  display: block;
+  width:60px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .char1 { transform: rotate(4deg); }
 .char2 { transform: rotate(8.4deg); }
@@ -331,21 +338,26 @@ p {
   justify-self: center;
 } */
 
-.navi-list {
+.navi {
+  padding-bottom: 20px;
+}
+
+/* .navi-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-}
+} */
 
 .navi-list li:not(.centered-logo) {
   flex: 1 0 auto;
   text-align: center;
+  padding: 8px 0 8px;
 }
 
 .logo {
-  width: 170px;
+  width: 200px;
   /* margin-top: -42px; */
   margin-top: -45px;
   border-radius: 50%;
@@ -368,9 +380,8 @@ p {
   animation-delay: 0.1s;
   opacity: 0;
   transition: fill 600ms cubic-bezier(0.215, 0.61, 0.355, 1),opacity 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
-
+  display: none;
 }
-
 
 #cover {
   position:absolute;
@@ -457,7 +468,8 @@ nav a {
   /* font-size: 1.2rem; */
   font-size: 1.25rem;
   font-kerning: normal;
-  letter-spacing: 0.3px;
+  /* letter-spacing: 0.3px; */
+  letter-spacing: -0.3px;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -467,45 +479,21 @@ nav a:nth-last-child() {
 }
 
 /* nav li:nth-child(2) {
-  padding-right: 90px;
-  margin-left: -45px;
-}
-
-nav li:nth-child(4) {
-  padding-left: 90px;
-  margin-right: -45px;
-} */
-
-nav li:nth-child(1) {
-  /* padding-right: -100px; */
-  /* margin-left: 2em; */
-}
-
-
-nav li:nth-child(2) {
-  /* margin-right: 10px;
-  padding-left: 20px; */
   margin-right: 100px;
   margin-left: 0px;
   padding-left: 40px;
 }
 
 nav li:nth-child(4) {
-  /* padding-left: 0px; */
-  /* margin-left: 0px; */
   margin-left: 100px;
   margin-right: -20px;
   padding-right: 0px;
-}
-
-nav li:nth-child(5) {
-  /* padding-right: -100px; */
-  /* margin-right: 2em; */
-}
-
+} */
   
 nav a:hover {
   text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 4px;
 }
   
 .nav-toggle:checked ~ nav {
@@ -518,6 +506,10 @@ nav a:hover {
 }
 
 @media screen and (min-width: 950px) {
+.mobile-logo {
+  display: none;
+}
+
   #round-title {
     display: block;
   }
@@ -549,6 +541,34 @@ nav a:hover {
   .logo-contain h3 {
     display: block;
   }
+
+  .logo {
+    display:block;
+  }
+  
+  .navi {
+    padding-bottom: 0;
+  }
+
+  .navi-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  nav li:nth-child(2) {
+    margin-right: 60px;
+    margin-left: 0px;
+    padding-left: 40px;
+  }
+  
+  nav li:nth-child(4) {
+    margin-left: 100px;
+    margin-right: -60px;
+    padding-right: 0px;
+  }  
     
   nav {      
     position: relative;
@@ -834,7 +854,8 @@ section {
   font-size: 1.1rem;
   transition: background-color 1s;
   text-decoration: none;
-  margin: 0.5em 0.25em 0 0.25em;
+  /* margin: 0.5em 0.25em 0 0.25em; */
+  margin-top: 0.5em;
   border-radius: 1rem;
 }
 
