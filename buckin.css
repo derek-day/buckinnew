@@ -683,10 +683,12 @@ nav a:hover {
   .social-grid {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr auto; */
+    grid-template-columns: auto auto;
     align-items: center;
     text-align: center;
-    gap: 8em;
+    gap: 1.5em;
+    /* gap: 8em; */
     width: 100%;
     padding: 5% 5% 5%;
   }
@@ -719,28 +721,32 @@ section {
   background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
   background-position: 0 0,0 0;
   background-size: auto, auto;
-  animation: returnToOrigin 0.5s ease-out forwards, scroll 400s linear infinite;
+  animation: returnToOrigin 0.5s ease-out forwards, scroll 600s linear infinite;
   animation-delay: 0.1s;
   transition: fill 600ms cubic-bezier(0.215, 0.61, 0.355, 1),opacity 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
   opacity: 0;
 }
 
 #home1 {
-  background: url('yellow.jpg');
-  background-image:  url('yellow.jpg');
-  /* background-size: cover; */
-  background-size: auto, auto;
+  /* background: url('yellow.jpg');
+  background-image:  url('yellow.jpg'); */
+  background: url('pa.jpg');
+  background-image:  url('pa.jpg');
 
+  background-size: auto, auto;
   background-repeat: no-repeat;
+
+  background-position: 0px 10%;
+
+  /* background-size: cover; */
   /* animation: scroll 100s linear infinite;
   perspective: 1000px;
   perspective-origin: 50% 50%; */
-
-  /* top: 0.5em; */
 }
 
 @keyframes scroll {
   100% {
+    /* background-position: 0px -400%; */
     background-position: 0px -400%;
   }
 }
@@ -748,16 +754,22 @@ section {
 /* Fallback if the operatring system prefers reduced motion*/
 @media (prefers-reduced-motion) {
   .wrapper {
-    animation: scroll 800s linear infinite;
+    animation: scroll 600s linear infinite;
   }
 }
 
 #home2 {
-  /* background-image:  url('owavey.png'); */
-  /* background-image:  url('wavy.jpg'); */
-  background-size: cover;
+  background: url('co.jpg');
+  background-image:  url('co.jpg');
+
+  /* background: url('pa.jpg');
+  background-image:  url('pa.jpg'); */
+  background-size: auto, auto;
   background-repeat: no-repeat;
-  /* top: 0.5em; */
+  background-position: 0px 5%;
+
+  /* perspective: 1000px;
+  perspective-origin: 50% 50%; */
 }
 
 .bullgap {
@@ -1136,7 +1148,20 @@ img {
 }
 
 .social-grid {
-  padding: 8%;
+  /* padding: 8%; */
+}
+
+.social-grid img {
+  object-fit: contain;
+  /* width: 70%; */
+  width: 30em;
+  height: auto;
+  /* justify-self: center; */
+}
+
+.social-contact {
+  /* padding: 0 10em 5em;  */
+  text-align: center;
 }
 
 .social-links {
@@ -1332,7 +1357,6 @@ label.fcf-label {
 .fcf-btn-primary {
   background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a;
   color: var(--txt-color-dark);
-  font-family: "Rokkitt";
   font-size: 1.3rem;
   font-weight: 700;
   transition: background-color 1s;
