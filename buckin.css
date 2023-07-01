@@ -719,10 +719,10 @@ nav a:hover {
     grid-template-columns: auto auto;
     align-items: center;
     text-align: center;
-    gap: 1.5em;
+    gap: 2em;
     /* gap: 8em; */
     width: 100%;
-    padding: 5% 5% 5%;
+    padding: 5% 8% 5%;
   }
     
   .social-links {
@@ -1186,9 +1186,10 @@ img {
 .social-grid img {
   object-fit: contain;
   /* width: 70%; */
-  width: 30em;
+  width: 32em;
   height: auto;
-  /* justify-self: center; */
+  justify-self: center;
+  rotate: -3deg;
 }
 
 .social-contact {
