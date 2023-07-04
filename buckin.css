@@ -666,7 +666,7 @@ nav a:hover {
   }    
 
   .homeimg img {
-    margin-top: -4em;
+    margin-top: -10em;
   }
 
   #about {
@@ -722,7 +722,7 @@ nav a:hover {
     gap: 2em;
     /* gap: 8em; */
     width: 100%;
-    padding: 5% 8% 5%;
+    padding: 5% 6% 5%;
   }
     
   .social-links {
@@ -738,6 +738,18 @@ nav a:hover {
   section {
     padding: 40px 5% 60px !important; 
   }
+
+  .bullgap div {
+    width: 600% !important;
+    animation: marqueerev 45s linear infinite !important;
+  }  
+
+  .bullgaprev div {
+    width: 600% !important;
+    animation: marqueerev 45s linear infinite !important;
+
+  }  
+
 }
 
 section {
@@ -816,8 +828,8 @@ section {
   overflow: hidden;
   position: relative;
   float: left;
-  width: 200%;
-  animation: marquee 32s linear infinite;
+  width: 1400%;
+  animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {
@@ -842,8 +854,8 @@ section {
   overflow: hidden;
   position: relative;
   float: right;
-  width: 200%;
-  animation: marqueerev 35s linear infinite;
+  width: 1400%;
+  animation: marqueerev 15s linear infinite;
 }
 
 @keyframes marqueerev {
@@ -970,37 +982,37 @@ img {
 .coffee-anim1 {
   right: 150px;
   position:absolute; 
-  top: 85px;  
+  top: 35px;  
   height: 350px !important;
   rotate: -2deg;
-  animation: moverdown 2s infinite alternate, slide-in 1.5s;
-  animation-delay: 0.8s;
+  animation: moverdown 3s infinite alternate, slide-in 2.5s;
+  /* animation-delay: 0.2s; */
   opacity: 0;
 }
 
 .coffee-anim2 {
   left: 150px;
   position:absolute; 
-  top: 115px;
+  top: 25px;
   height: 350px !important;
   rotate: 2deg;
-  animation: moverdown 2s infinite alternate, slide-in 1.5s;
-  animation-delay: 0.8s;
+  animation: moverdown 3.6s infinite alternate, slide-in 2.5s;
+  /* animation-delay: 0.2s; */
   opacity: 0;
 }
 
 .coffee-anim3 {
   position:absolute; 
-  top: 100px;  
+  top: 50px;  
   height: 350px !important;
-  animation: moverup 2.5s infinite alternate, slide-in 1.5s;
-  animation-delay: 0.8s;
+  animation: moverup 3.3s infinite alternate, slide-in 2.5s;
+  /* animation-delay: 0.2s; */
   opacity: 0;
 }
 
 @keyframes slide-in {
   0% {
-    transform: translateY(calc(10vh - 25rem));
+    transform: translateY(calc(20vh - 90rem));
   }
   100% {
     transform: translateY(0);
@@ -1008,23 +1020,23 @@ img {
 }
 
 @-webkit-keyframes moverup {
-  0% { transform: translateY(-5px); opacity: 1; }
+  0% { transform: translateY(-10px); opacity: 1; }
   25% { opacity: 1; }
   100% { transform: translateY(0px); opacity: 1; }
 }
 @keyframes moverup {
-  0% { transform: translateY(-5px); opacity: 1; }
+  0% { transform: translateY(-10px); opacity: 1; }
   25% { opacity: 1; }
   100% { transform: translateY(0px); opacity: 1; }
 }
 
 @-webkit-keyframes moverdown {
-  0% { transform: translateY(5px); opacity: 1; }
+  0% { transform: translateY(10px); opacity: 1; }
   25% { opacity: 1; }
   100% { transform: translateY(0px); opacity: 1; }
 }
 @keyframes moverdown {
-  0% { transform: translateY(5px); opacity: 1; }
+  0% { transform: translateY(10px); opacity: 1; }
   25% { opacity: 1; }
   100% { transform: translateY(0px); opacity: 1; }
 }
