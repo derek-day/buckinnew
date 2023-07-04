@@ -174,13 +174,18 @@ nav a {
   /* font-family: "Recoleta-Bold";
   font-weight: 700; */
 
-  font-family: "Primana";
+  /* font-family: "Primana"; */
+  font-family: "diazo-mvb-ex-cond", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 p,
 textarea {
   /* font-family: "RecoletaAlt-Regular"; */
   font-family: "Primana Thin";
+  /* font-family: "diazo-mvb-ex-cond"; */
+
   /* font-weight: 500; */
 }
 
@@ -466,10 +471,12 @@ nav a {
   text-decoration: none;
   /* font-size: 1rem; */
   /* font-size: 1.2rem; */
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-kerning: normal;
   /* letter-spacing: 0.3px; */
-  letter-spacing: -0.3px;
+  letter-spacing: 0.1em;
+
+  /* letter-spacing: -0.3px; */
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -741,7 +748,7 @@ nav a:hover {
 
   .bullgap div {
     width: 600% !important;
-    animation: marqueerev 45s linear infinite !important;
+    animation: marquee 45s linear infinite !important;
   }  
 
   .bullgaprev div {
@@ -909,7 +916,7 @@ section {
   color: var(--txt-color-dark);
   transition: background-color 1s;
   /* padding: 5px 10px; */
-  padding: 10px 15px;
+  padding: 8px 15px;
   border-radius: 0.5rem;
 }
 
@@ -984,6 +991,8 @@ img {
   position:absolute; 
   top: 35px;  
   height: 350px !important;
+  width: 350px !important;
+
   rotate: -2deg;
   animation: moverdown 3s infinite alternate, slide-in 2.5s;
   /* animation-delay: 0.2s; */
@@ -995,6 +1004,7 @@ img {
   position:absolute; 
   top: 25px;
   height: 350px !important;
+  width: 350px !important;
   rotate: 2deg;
   animation: moverdown 3.6s infinite alternate, slide-in 2.5s;
   /* animation-delay: 0.2s; */
@@ -1005,6 +1015,8 @@ img {
   position:absolute; 
   top: 50px;  
   height: 350px !important;
+  width: 350px !important;
+
   animation: moverup 3.3s infinite alternate, slide-in 2.5s;
   /* animation-delay: 0.2s; */
   opacity: 0;
