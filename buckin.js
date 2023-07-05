@@ -18,6 +18,8 @@ showSlides();
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("slide-div");
+  slides.backgroundPosition = "0px 10%";
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
@@ -26,9 +28,7 @@ function showSlides() {
   slides[slideIndex-1].style.display = "grid";  
   // setTimeout(showSlides, 6500);
   setTimeout(showSlides, 8000);
-
 }
-
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
@@ -47,7 +47,6 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-
 
 // Drink slides
 const drinkSlides = document.querySelectorAll(".drink-slide");

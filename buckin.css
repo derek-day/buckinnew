@@ -372,7 +372,6 @@ p {
    background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
    background-position: 0 0,0 0;
    background-size: auto, auto;
- 
    /* color: white; */
    /* padding: 10px; */
    padding: 4px;
@@ -475,7 +474,6 @@ nav a {
   font-kerning: normal;
   /* letter-spacing: 0.3px; */
   letter-spacing: 0.1em;
-
   /* letter-spacing: -0.3px; */
   opacity: 0;
   transition: opacity 150ms ease-in-out;
@@ -484,23 +482,35 @@ nav a {
 nav a:nth-last-child() {
   background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a;
 }
-
-/* nav li:nth-child(2) {
-  margin-right: 100px;
-  margin-left: 0px;
-  padding-left: 40px;
-}
-
-nav li:nth-child(4) {
-  margin-left: 100px;
-  margin-right: -20px;
-  padding-right: 0px;
-} */
   
-nav a:hover {
+/* nav a:hover {
   text-decoration: underline;
   text-decoration-thickness: 3.5px;
   text-underline-offset: 4px;
+} */
+
+nav li:not(:last-child) a::before {   
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3.5px;
+  border-radius: 4px;
+  background-color: #18272F;
+  /* bottom: 0; */
+  bottom: -4px;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+nav li:not(:last-child) a:hover::before {   
+transform-origin: left;
+transform: scaleX(1);
+}
+
+nav li:nth-child(3) a:before {
+  content: none;
 }
   
 .nav-toggle:checked ~ nav {
@@ -1280,7 +1290,7 @@ footer img {
   font-family: "diazo-mvb-ex-cond", sans-serif;
   font-weight: 500;
   font-style: normal;
-
+  position: relative;
 }
 
 .footer-links a:hover {
@@ -1288,6 +1298,7 @@ footer img {
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;  
 }
+
 
 .footer-links img {
   width: 50px;
