@@ -18,7 +18,10 @@ showSlides();
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("slide-div");
-  slides.backgroundPosition = "0px 10%";
+  let homeslide1 = document.getElementById("home1");
+  let homeslide2 = document.getElementById("home2");
+  homeslide1.backgroundPosition = "0px 10%";
+  homeslide2.backgroundPosition = "0px 5%";
 
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
