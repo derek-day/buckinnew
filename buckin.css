@@ -633,10 +633,11 @@ nav li:nth-child(3) a:before {
     /* grid-template-columns: 1fr auto; */
     grid-template-columns: auto auto;
     gap: 5rem;
+    /* gap: 2em; */
     align-items: center;
     width: 100%;
     justify-items: center;
-    /* padding: 100px 10% 0px !important;  */
+    /* padding: 160px 10% 0px !important;  */
     padding: 160px 10% 0px !important; 
   }  
 
@@ -674,7 +675,7 @@ nav li:nth-child(3) a:before {
 
   .about-txt {
     text-align: -webkit-center;
-    margin-top: 40px;
+    padding-top: 40px;
   }
 
   .about-txt h2, p {
@@ -716,7 +717,8 @@ nav li:nth-child(3) a:before {
     gap: 2em;
     /* gap: 8em; */
     width: 100%;
-    padding: 5% 6% 5%;
+    /* padding: 5% 6% 5%; */
+    padding: 5% 9% 5% 3%;
   }
     
   .social-links {
