@@ -674,7 +674,7 @@ nav li:nth-child(3) a:before {
 
   .about-txt {
     text-align: -webkit-center;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .about-txt h2, p {
@@ -1056,16 +1056,13 @@ img {
 }
 
 .about-txt h2:nth-child(1){
-  font-size: 2.2rem;
+  font-size: 2.6rem;
+  padding-bottom: 0.1em;
 }
 
 .about-txt p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
-
-/* #about {
-  margin-bottom: 6em;
-} */
 
 #menu {
   margin-bottom: 14em;
@@ -1073,7 +1070,7 @@ img {
 }
 
 #menu h2 {
-  font-size: 5rem;
+  font-size: 7rem;
   margin-bottom: 0.3em;
 }
 
@@ -1146,7 +1143,7 @@ img {
 }
 
 #store h2 {
-  font-size: 3rem;
+  font-size: 5rem;
   margin-bottom: 0.3em;
 }
 
