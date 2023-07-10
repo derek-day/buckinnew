@@ -503,6 +503,7 @@ nav li:nth-child(3) a:before {
   top: 60%;
   left: 0;
   z-index: 1;
+  display: none;
 }
 
 #social-sidebar a {
@@ -557,6 +558,10 @@ nav li:nth-child(3) a:before {
   .next-event h2 {
     display: block;
   }    
+
+  .social-stick {
+    display: block;
+  }
   
   /* #header {
     display: grid;
@@ -675,7 +680,7 @@ nav li:nth-child(3) a:before {
 
   .about-txt {
     text-align: -webkit-center;
-    padding-top: 40px;
+    /* padding-top: 40px; */
   }
 
   .about-txt h2, p {
@@ -717,8 +722,8 @@ nav li:nth-child(3) a:before {
     gap: 2em;
     /* gap: 8em; */
     width: 100%;
-    /* padding: 5% 6% 5%; */
-    padding: 5% 9% 5% 3%;
+    /* padding: 5% 9% 5% 3%; */
+    padding: 5% 8% 5% 5%;
   }
     
   .social-links {
@@ -969,6 +974,7 @@ img {
   animation-delay: 0.3s;
   transition: fill 600ms cubic-bezier(0.215, 0.61, 0.355, 1),opacity 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
   opacity: 0;
+  padding-top: 100px;
 }
 
 .coffee-img {
@@ -1012,6 +1018,18 @@ img {
   /* animation-delay: 0.2s; */
   opacity: 0;
 }
+
+.trailer-anim {
+  /* top: 35px;  
+  height: 350px !important;
+  width: 350px !important; */
+
+  rotate: -2deg;
+  animation: moverdown 3s infinite alternate, slide-in 2.5s;
+  /* animation-delay: 0.2s; */
+  opacity: 0;
+}
+
 
 @keyframes slide-in {
   0% {
