@@ -152,8 +152,9 @@ body {
     font-family: system-ui;
     font-size: 1.125rem;
     line-height: 1.5;
-    /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
-    background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
+    /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
+    background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4);
+
     background-position: 0 0,0 0;
     background-size: auto, auto;
 }
@@ -351,7 +352,8 @@ p {
   /* margin-top: -40px; */
   margin-top: -45px;
   justify-self: center;
-   background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
+   /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
+   background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4);
    background-position: 0 0,0 0;
    background-size: auto, auto;
    padding: 6px;
@@ -374,8 +376,9 @@ p {
   bottom:0;
   left:0;
   right:0;
-  /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
-  background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
+  /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
+  background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4);
+
   background-position: 0 0,0 0;
   background-size: auto, auto;
   z-index:-100;
@@ -430,9 +433,10 @@ nav {
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
-  transition: transform 400ms ease-in-out;
-  /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
-  background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
+  transition: transform 400ms ease-in-out;  
+  /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
+  background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4);
+  
 }
   
 nav ul {
