@@ -786,8 +786,8 @@ section {
   background: url('pa.jpg');
   background-image:  url('pa.jpg');
 
-  background: url('co.jpg');
-  background-image:  url('co.jpg');
+  /* background: url('co.jpg');
+  background-image:  url('co.jpg'); */
 
   background-size: auto, auto;
   background-repeat: no-repeat;
@@ -816,11 +816,12 @@ section {
 }
 
 #home2 {
-  /* background: url('co.jpg');
-  background-image:  url('co.jpg'); */
+  background: url('co.jpg');
+  background-image:  url('co.jpg');
 
-  background: url('pa.jpg');
-  background-image:  url('pa.jpg');
+  /* background: url('pa.jpg');
+  background-image:  url('pa.jpg'); */
+
   background-size: auto, auto;
   background-repeat: no-repeat;
   background-position: 0px 5%;
