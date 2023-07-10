@@ -31,6 +31,9 @@ function showSlides() {
   slides[slideIndex-1].style.display = "grid";  
   // setTimeout(showSlides, 6500);
   setTimeout(showSlides, 8000);
+  homeslide1.backgroundPosition = "0px 10%";
+  homeslide2.backgroundPosition = "0px 5%";
+
 }
 
 function reveal() {

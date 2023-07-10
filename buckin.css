@@ -180,23 +180,27 @@ h2 {
 }
 
 h3,
-h4,
-label {
+h4 {
   font-family: "Recoleta-Bold";
   font-weight: 500;
 }
 
+label {
+  font-family: "Primana";
+  /* letter-spacing: 0.2em; */
+}
+
 button,
 .btn {
-  font-family: "Recoleta-SemiBold";
+  font-family: "Primana";
 }
 
 nav a {
   /* font-family: "Recoleta-Bold";
   font-weight: 700; */
 
-  /* font-family: "Primana"; */
-  font-family: "diazo-mvb-ex-cond", sans-serif;
+  font-family: "Primana";
+  /* font-family: "diazo-mvb-ex-cond", sans-serif; */
   font-weight: 700;
   font-style: normal;
 }
@@ -448,9 +452,8 @@ nav a {
   /* font-size: 1.35rem; */
   font-size: 1.4rem;
   font-kerning: normal;
-  /* letter-spacing: 0.3px; */
-  letter-spacing: 0.1em;
-  /* letter-spacing: -0.3px; */
+  /* letter-spacing: 0.1em; */
+  letter-spacing: 0.05em;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -529,6 +532,14 @@ nav li:nth-child(3) a:before {
   width: 50px;
   /* margin: 5px; */
   margin: 5px 8px 5px;
+}
+
+@media screen and (max-width: 1544px) {
+
+  .about-txt {
+    transform: translateY(50px);
+  }
+
 }
 
 @media screen and (min-width: 950px) {
@@ -680,7 +691,6 @@ nav li:nth-child(3) a:before {
 
   .about-txt {
     text-align: -webkit-center;
-    /* padding-top: 40px; */
   }
 
   .about-txt h2, p {
@@ -723,7 +733,7 @@ nav li:nth-child(3) a:before {
     /* gap: 8em; */
     width: 100%;
     /* padding: 5% 9% 5% 3%; */
-    padding: 5% 8% 5% 5%;
+    padding: 5% 8% 5% 3%;
   }
     
   .social-links {
@@ -773,10 +783,11 @@ section {
 }
 
 #home1 {
-  /* background: url('yellow.jpg');
-  background-image:  url('yellow.jpg'); */
   background: url('pa.jpg');
   background-image:  url('pa.jpg');
+
+  background: url('co.jpg');
+  background-image:  url('co.jpg');
 
   background-size: auto, auto;
   background-repeat: no-repeat;
@@ -788,6 +799,7 @@ section {
   perspective: 1000px;
   perspective-origin: 50% 50%; */
 }
+
 
 @keyframes scroll {
   100% {
@@ -804,11 +816,11 @@ section {
 }
 
 #home2 {
-  background: url('co.jpg');
-  background-image:  url('co.jpg');
+  /* background: url('co.jpg');
+  background-image:  url('co.jpg'); */
 
-  /* background: url('pa.jpg');
-  background-image:  url('pa.jpg'); */
+  background: url('pa.jpg');
+  background-image:  url('pa.jpg');
   background-size: auto, auto;
   background-repeat: no-repeat;
   background-position: 0px 5%;
@@ -849,6 +861,7 @@ section {
   float: right;
   margin-top: 2em;
   margin-bottom: 2em; 
+  filter: blur(1.2px);
 }
 
 .bullgaprev div {
@@ -856,7 +869,7 @@ section {
   position: relative;
   float: right;
   width: 1400%;
-  animation: marqueerev 15s linear infinite;
+  animation: marqueerev 20s linear infinite;
 }
 
 @keyframes marqueerev {
@@ -1076,13 +1089,47 @@ img {
 }
 
 .about-txt h2:nth-child(1){
-  font-size: 2.6rem;
-  padding-bottom: 0.1em;
+  font-size: 5rem;
+  padding-bottom: 0.2em;
+}
+
+.tapered {
+  background-image: linear-gradient(181deg, #fab855 0%, #FF9E3A 50%, transparent 54%, transparent 100%);
+}
+
+span {
+/* .about-txt span:nth-child(1) { */
+  background-size:  100% 15%;
+  background-repeat: repeat-x;
+  background-position: left 0% bottom 10%;
+
 }
 
 .about-txt p {
   font-size: 1.3rem;
 }
+
+.about-bull {
+  overflow: hidden;
+  position: relative;
+  float: right;
+  margin-top: -2em;
+  margin-bottom: 2em; 
+}
+
+.about-bull div {
+  overflow: hidden;
+  position: relative;
+  float: right;
+  width: 200%;
+  animation: marqueerev 45s linear infinite;
+}
+
+.about-bull span {
+  float: right;
+  width: 50%;
+}
+
 
 #menu {
   margin-bottom: 14em;
@@ -1216,7 +1263,7 @@ img {
 .social-grid img {
   object-fit: contain;
   /* width: 70%; */
-  width: 32em;
+  width: 34em;
   height: auto;
   justify-self: center;
   rotate: -3deg;
@@ -1317,7 +1364,8 @@ footer img {
 }
 
 .fcf-h3 {
-  font-size: 1.8rem;
+  /* font-size: 1.8rem; */
+  font-size: 2.2rem;
 }
 
 .fcf-input-group {
@@ -1340,17 +1388,20 @@ footer img {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
+  color: var(--txt-color-dark);
+  /* background-color: #fff; */
+  background-color: #f3efe2;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  /* border: 1px solid #ced4da; */
+  border: 2px solid #2c2c2c;
+  font-family: "Primana Thin";
   outline: none;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .fcf-form-control:focus {
-  border: 1px solid #313131;
+  border: 3px solid var(--txt-color-dark);
 }
 
 select.fcf-form-control[size], select.fcf-form-control[multiple] {
@@ -1364,8 +1415,7 @@ textarea.fcf-form-control {
 label.fcf-label {
   display: inline-block;
   margin-bottom: 0.5rem;
-  letter-spacing: 0.2px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .fcf-credit {
@@ -1387,7 +1437,8 @@ label.fcf-label {
 .fcf-btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  /* color: #212529; */
+  color: var(--txt-color-dark);
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
