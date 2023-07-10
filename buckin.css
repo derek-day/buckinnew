@@ -197,11 +197,9 @@ button,
 }
 
 nav a {
-  /* font-family: "Recoleta-Bold";
-  font-weight: 700; */
-
   font-family: "Primana";
-  /* font-family: "diazo-mvb-ex-cond", sans-serif; */
+  font-family: "Recoleta-Bold";
+  font-family: "Recoleta-Black";
   font-weight: 700;
   font-style: normal;
 }
@@ -755,12 +753,14 @@ nav li:nth-child(3) a:before {
   }
 
   .bullgap div {
-    width: 600% !important;
+    /* width: 600% !important; */
+    width: 400% !important;
     animation: marquee 45s linear infinite !important;
   }  
 
   .bullgaprev div {
-    width: 600% !important;
+    /* width: 600% !important; */
+    width: 400% !important;
     animation: marqueerev 45s linear infinite !important;
 
   }  
@@ -838,8 +838,8 @@ section {
   overflow: hidden;
   position: relative;
   float: left;
-  margin-top: -6em;
-  margin-bottom: 2em;
+  /* margin-top: -6em;
+  margin-bottom: 2em; */
 }
 
 .bullgap div {
@@ -1095,7 +1095,7 @@ img {
 
 .about-txt h2:nth-child(1){
   font-size: 5rem;
-  padding-bottom: 0.2em;
+  padding-bottom: 0.1em;
 }
 
 .tapered {
@@ -1137,7 +1137,8 @@ span {
 
 
 #menu {
-  margin-bottom: 14em;
+  /* margin-bottom: 14em; */
+  margin-bottom: 4em;
   text-align: center;
 }
 
@@ -1210,7 +1211,7 @@ span {
 }
 
 #store {
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
   text-align: center;
 }
 
