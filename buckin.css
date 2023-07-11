@@ -720,7 +720,8 @@ nav li:nth-child(3) a:before {
   }
 
   .drink-grid p {
-    text-align: left;
+    /* text-align: left; */
+    text-align: center;
   }  
 
   .store-grid {
@@ -772,8 +773,8 @@ nav li:nth-child(3) a:before {
   .bullgaprev div {
     /* width: 600% !important; */
     width: 400% !important;
-    animation: marqueerev 45s linear infinite !important;
-
+    /* animation: marqueerev 45s linear infinite !important; */
+    animation: marqueerev 60s linear infinite !important;
   }  
 
 }
@@ -892,7 +893,8 @@ section {
   float: right;
   margin-top: 2em;
   margin-bottom: 2em; 
-  filter: blur(1.2px);
+  /* filter: blur(1.2px); */
+  filter: blur(1px);
 }
 
 .bullgaprev div {
@@ -900,7 +902,7 @@ section {
   position: relative;
   float: right;
   width: 1400%;
-  animation: marqueerev 20s linear infinite;
+  animation: marqueerev 30s linear infinite;
 }
 
 @keyframes marqueerev {
@@ -1140,6 +1142,7 @@ span {
 .about-txt p {
   font-size: 1.2rem;
   line-height: 1.7rem;
+  text-wrap: balance;
 }
 
 .about-bull {
@@ -1171,8 +1174,9 @@ span {
 }
 
 #menu h2 {
-  font-size: 7rem;
-  margin-bottom: 0.3em;
+  /* font-size: 7rem; */
+  font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important;
+  /* margin-bottom: 0.3em; */
 }
 
 .drink-grid {
@@ -1194,7 +1198,7 @@ span {
 }
 
 .drink-grid img {
-  width: 60%;
+  width: 50%;
   height: auto;
   display: inline;
 }
@@ -1246,8 +1250,9 @@ span {
 }
 
 #store h2 {
-  font-size: 5rem;
-  margin-bottom: 0.3em;
+  /* font-size: 5rem; */
+  font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important;
+  /* margin-bottom: 0.3em; */
 }
 
 #store img {
@@ -1403,7 +1408,8 @@ footer img {
 
 .fcf-h3 {
   /* font-size: 1.8rem; */
-  font-size: 2.2rem;
+  font-size: 3.5rem;
+  /* font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important; */
 }
 
 .fcf-input-group {
