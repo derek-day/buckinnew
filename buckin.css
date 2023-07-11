@@ -673,8 +673,8 @@ nav li:nth-child(3) a:before {
   }
 
   .introtext {
-    /* font-size: clamp(2rem, 1rem + 4.5vw, 7rem) !important; */
-    font-size: 5rem !important;
+    font-size: clamp(2rem, 1rem + 4.5vw, 7rem) !important;
+    /* font-size: 5rem !important; */
     line-height: 5.3rem !important;
     text-align: left !important;
   }
