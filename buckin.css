@@ -153,7 +153,10 @@ body {
     font-size: 1.125rem;
     line-height: 1.5;
     /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
-    background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4);
+    /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
+    /* background-image: url("noise.png"),linear-gradient(#f3e4d1,#f3e4d1); */
+    background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
+
 
     background-position: 0 0,0 0;
     background-size: auto, auto;
@@ -351,7 +354,9 @@ p {
   margin-top: -45px;
   justify-self: center;
    /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
-   background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4);
+   /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
+   background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
+
    background-position: 0 0,0 0;
    background-size: auto, auto;
    padding: 6px;
@@ -375,7 +380,9 @@ p {
   left:0;
   right:0;
   /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
-  background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4);
+  /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
+  background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
+
 
   background-position: 0 0,0 0;
   background-size: auto, auto;
@@ -433,7 +440,9 @@ nav {
   transform-origin: top;
   transition: transform 400ms ease-in-out;  
   /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
-  background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4);
+  /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
+  background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
+
   
 }
   
@@ -664,7 +673,9 @@ nav li:nth-child(3) a:before {
   }
 
   .introtext {
-    font-size: clamp(2rem, 1rem + 4.5vw, 7rem) !important;
+    /* font-size: clamp(2rem, 1rem + 4.5vw, 7rem) !important; */
+    font-size: 5rem !important;
+    line-height: 5.3rem !important;
     text-align: left !important;
   }
     
@@ -777,13 +788,28 @@ section {
   width: 100%;
   height: 85dvh;
   /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
-  background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb);
+  /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
+  background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
+
   background-position: 0 0,0 0;
   background-size: auto, auto;
   animation: returnToOrigin 0.5s ease-out forwards, scroll 600s linear infinite;
   animation-delay: 0.1s;
   transition: fill 600ms cubic-bezier(0.215, 0.61, 0.355, 1),opacity 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
   opacity: 0;
+}
+
+.home a {
+  font-family: 'Primana Thin'; 
+  letter-spacing: 0.05em;
+  line-height: 2.1rem;
+}
+
+.home h2 {
+  font-family: 'Primana Thin';
+  text-wrap: balance;
+  padding-top: 0.25em;
+  padding-bottom: 0.1em;
 }
 
 #home1 {
@@ -1111,7 +1137,8 @@ span {
 }
 
 .about-txt p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
 }
 
 .about-bull {
@@ -1156,11 +1183,13 @@ span {
 
 .drink-grid h3 {
   font-size: 1.8rem;
+  line-height: 2.3rem;
   padding: 0.2em 0 0.2em;
 }
 
 .drink-grid p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
 }
 
 .drink-grid img {
@@ -1231,12 +1260,14 @@ span {
 }
 
 .store-grid h3 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
   padding: 0.2em 0 0.2em;
 }
 
 .store-grid p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
 }
 
 .tumbler-slide {
