@@ -201,7 +201,6 @@ button,
 
 nav a {
   font-family: "Primana";
-  font-family: "Recoleta-Bold";
   /* font-family: "Recoleta-Black"; */
   font-weight: 700;
   font-style: normal;
@@ -761,7 +760,8 @@ nav li:nth-child(3) a:before {
   }
 
   section {
-    padding: 40px 5% 60px !important; 
+    /* padding: 40px 5% 60px !important;  */
+    padding: 70px 5% 70px !important; 
   }
 
   .bullgap div {
@@ -1171,6 +1171,17 @@ span {
   /* margin-bottom: 14em; */
   margin-bottom: 4em;
   text-align: center;
+  /* border-bottom: 2px solid #FF9E3A; */
+}
+
+#menu::after {
+  content:'';
+  border-bottom: 3px solid #FF9E3A;
+  width:75%;
+  bottom:0;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #menu h2 {
@@ -1208,6 +1219,7 @@ span {
   height: 350px;
   position: relative;
   overflow-x: clip;
+  margin-bottom: 10em;
 }
 
 .drink-slide {
