@@ -202,7 +202,7 @@ button,
 nav a {
   font-family: "Primana";
   font-family: "Recoleta-Bold";
-  font-family: "Recoleta-Black";
+  /* font-family: "Recoleta-Black"; */
   font-weight: 700;
   font-style: normal;
 }
@@ -460,8 +460,8 @@ nav ul {
 nav a {
   color: black;
   text-decoration: none;
-  /* font-size: 1.35rem; */
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  /* font-size: 1.4rem; */
   font-kerning: normal;
   /* letter-spacing: 0.1em; */
   letter-spacing: 0.05em;
@@ -1120,7 +1120,8 @@ img {
 }
 
 .about-txt h2:nth-child(1){
-  font-size: 5rem;
+  font-size: clamp(2rem, 1rem + 4.5vw, 7rem) !important;
+  /* font-size: 5rem; */
   padding-bottom: 0.1em;
 }
 
