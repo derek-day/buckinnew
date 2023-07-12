@@ -181,6 +181,10 @@ p {
 h2 {
   font-family: "RecoletaAlt-Black";
   font-weight: 800;
+
+  font-size: 55px !important;
+  line-height: 69px !important;
+  padding-bottom: 1.5rem !important;
 }
 
 h3,
@@ -218,7 +222,10 @@ textarea {
 }
 
 p {
-  letter-spacing: -0.2px;
+  /* letter-spacing: -0.2px; */
+  font-size: 18px !important;
+  line-height: 1.6em !important;
+  margin: 0 0 15px !important;
   /* text-wrap: balance; */
 }
 
