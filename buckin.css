@@ -121,7 +121,7 @@
   /* --txt-color-dark: #1d171f; */
   --txt-color-dark: #0b090c;
   --background: #f2f0e3;
-  --accent-color: #ff8507;
+  --orange: #ff9e3a;
 
   --shadow-color: 280deg 25% 0%;
   --shadow-elevation-low:
@@ -186,6 +186,10 @@ p {
 h2 {
   font-family: "RecoletaAlt-Black";
   font-weight: 800;
+
+  font-size: 55px !important;
+  line-height: 69px !important;
+  padding-bottom: 1.5rem !important;
 }
 
 h3,
@@ -223,7 +227,10 @@ textarea {
 }
 
 p {
-  letter-spacing: -0.2px;
+  /* letter-spacing: -0.2px; */
+  font-size: 18px !important;
+  line-height: 1.6em !important;
+  margin: 0 0 15px !important;
   /* text-wrap: balance; */
 }
 
@@ -476,7 +483,7 @@ nav a {
 }
 
 nav a:nth-last-child() {
-  background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a;
+  background: linear-gradient(180deg, var(--orange), transparent) var(--orange);
 }
   
 /* nav a:hover {
@@ -991,8 +998,7 @@ section {
 }
 
 .btn-style {
-  /* background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a; */
-  background-color: #ff9e3a;
+  background-color: var(--orange);
   color: var(--txt-color-dark);
   transition: background-color 1s;
   /* padding: 5px 10px; */
@@ -1011,9 +1017,6 @@ section {
 .btn {
   display: inline-block;
   padding: 15px 20px;
-  /* background: linear-gradient(180deg, var(--accent-color), transparent) #ff9e3a;
-  color: var(--txt-color-dark); */
-  /* background: url("cow.jpg") no-repeat scroll 0 0 transparent; */
   background: var(--txt-color-dark);
   color: #fff;
   font-kerning: normal;
@@ -1032,7 +1035,7 @@ section {
 .btn:focus,
 .btn:focus-within {
   /* background-color: #ffc55a; */
-  background-color: #ff9e3a;
+  background-color: var(--orange);
   color: var(--txt-color-dark);
   font-family: "Recoleta-Bold";
   letter-spacing: 0.2px;
@@ -1209,14 +1212,14 @@ span {
 
 #menu {
   /* margin-bottom: 14em; */
+  background-image: url(menubackground.webp);
   margin-bottom: 4em;
   text-align: center;
-  /* border-bottom: 2px solid #FF9E3A; */
 }
 
 #menu::after {
   content:'';
-  border-bottom: 3px solid #FF9E3A;
+  border-bottom: 3px solid var(--orange);
   width:75%;
   bottom:0;
   display: block;
@@ -1305,7 +1308,7 @@ span {
 
 #store::after {
   content:'';
-  border-bottom: 3px solid #FF9E3A;
+  border-bottom: 3px solid var(--orange);
   width:75%;
   bottom:0;
   display: block;
@@ -1591,7 +1594,8 @@ label.fcf-label {
 }
 
 .fcf-btn-primary {
-  background-color: #ff9e3a;  color: var(--txt-color-dark);
+  background-color: var(--orange);  
+  color: var(--txt-color-dark);
   font-size: 1.3rem;
   font-weight: 700;
   transition: background-color 1s;
