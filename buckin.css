@@ -156,7 +156,8 @@ html {
 body {
     font-family: system-ui;
     font-size: 1.125rem;
-    line-height: 1.5;
+    line-height: 0.5;
+    /* line-height: 1.5; */
     /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
     /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
     /* background-image: url("noise.png"),linear-gradient(#f3e4d1,#f3e4d1); */
@@ -211,7 +212,8 @@ button,
 }
 
 nav a {
-  font-family: "Primana";
+  /* font-family: "Primana"; */
+  font-family: 'Korolev Heavy';
   /* font-family: "Recoleta-Black"; */
   font-weight: 700;
   font-style: normal;
@@ -396,7 +398,7 @@ p {
   /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
   background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
 
-
+  line-height: 0.5 !important;
   background-position: 0 0,0 0;
   background-size: auto, auto;
   z-index:-100;
@@ -473,8 +475,8 @@ nav ul {
 nav a {
   color: black;
   text-decoration: none;
-  font-size: 1.3rem;
-  /* font-size: 1.4rem; */
+  font-size: 1.5rem;
+  /* font-size: 1.3rem; */
   font-kerning: normal;
   /* letter-spacing: 0.1em; */
   letter-spacing: 0.05em;
@@ -1168,6 +1170,8 @@ img {
   font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important;
   /* font-size: 5rem; */
   padding-bottom: 0.1em;
+  font-family: 'Korolev Heavy' !important;
+
 }
 
 .tapered {
