@@ -475,7 +475,7 @@ nav ul {
 nav a {
   color: black;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   /* font-size: 1.3rem; */
   font-kerning: normal;
   /* letter-spacing: 0.1em; */
@@ -502,7 +502,7 @@ nav li:not(:last-child) a::before {
   border-radius: 4px;
   background-color: #18272F;
   /* bottom: 0; */
-  bottom: -4px;
+  bottom: -2px;
   left: 0;
   transform-origin: right;
   transform: scaleX(0);
@@ -1183,7 +1183,6 @@ span {
   background-size:  100% 15%;
   background-repeat: repeat-x;
   background-position: left 0% bottom 10%;
-
 }
 
 .about-txt p {
