@@ -108,6 +108,16 @@
 }
 
 @font-face {
+  font-family: "Korolev Medium";
+  src: url('Korolev Medium.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Korolev Bold";
+  src: url('Korolev Bold.ttf') format("truetype");
+}
+
+@font-face {
   font-family: "Primana Thin";
   src: url('Primana Thin.ttf') format("truetype");
 }
@@ -189,7 +199,7 @@ h2 {
   font-weight: 800; */
   font-family: "Korolev Heavy";
 
-  font-size: 55px !important;
+  /* font-size: 55px !important; */
   line-height: 69px !important;
   padding-bottom: 1.5rem !important;
 }
@@ -214,16 +224,19 @@ button,
 
 nav a {
   /* font-family: "Primana"; */
+  font-family: 'Korolev Bold';
   font-family: 'Korolev Heavy';
   /* font-family: "Recoleta-Black"; */
-  font-weight: 700;
+  /* font-weight: 700; */
   font-style: normal;
 }
 
 p,
 textarea {
   /* font-family: "RecoletaAlt-Regular"; */
-  font-family: "Primana Thin";
+  /* font-family: "Primana Thin"; */
+  font-family: "Korolev";
+  /* font-weight: 600; */
   /* font-family: "diazo-mvb-ex-cond"; */
 
   /* font-weight: 500; */
@@ -564,7 +577,8 @@ nav li:nth-child(3) a:before {
 @media screen and (max-width: 1544px) {
 
   .about-txt {
-    transform: translateY(50px);
+    /* transform: translateY(50px); */
+    transform: translateY(10px);
   }
 
 }
@@ -715,7 +729,8 @@ nav li:nth-child(3) a:before {
     align-items: center;
     gap: 3rem;
     width: 100%;
-    padding: 0px 5% 30px 0% !important; 
+    /* padding: 0px 5% 30px 0% !important;  */
+    padding: 0px 0% 0px 0% !important; 
   }
 
   .about-txt {
@@ -1223,7 +1238,7 @@ span {
 
 #menu {
   /* margin-bottom: 14em; */
-  background-image: url(menubackground.webp);
+  /* background-image: url(menubackground.webp); */
   margin-bottom: 4em;
   text-align: center;
 }
