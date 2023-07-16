@@ -185,8 +185,9 @@ p {
 }
 
 h2 {
-  font-family: "RecoletaAlt-Black";
-  font-weight: 800;
+  /* font-family: "RecoletaAlt-Black";
+  font-weight: 800; */
+  font-family: "Korolev Heavy";
 
   font-size: 55px !important;
   line-height: 69px !important;
@@ -860,7 +861,9 @@ section {
 }
 
 .home h2 {
-  font-family: 'Primana Thin';
+  /* font-family: 'Primana Thin'; */
+  font-family: 'Korolev';
+  font-weight: 200;
   text-wrap: balance;
   padding-top: 0.25em;
   padding-bottom: 0.1em;
@@ -986,12 +989,16 @@ section {
 }
 
 .introtext {
-  font-family: "Recoleta-Black";
+  /* font-family: "Recoleta-Black"; */
+  font-family: "Korolev-Condensed";
+  /* font-family: "Korolev"; */
+  font-weight: 600;
   font-size: 2.5rem;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-kerning: normal;
-  line-height: 0.95em;
+  /* line-height: 0.95em; */
+  line-height: 3rem;
 }
 
 .hometext {
@@ -1182,7 +1189,8 @@ span {
 /* .about-txt span:nth-child(1) { */
   background-size:  100% 15%;
   background-repeat: repeat-x;
-  background-position: left 0% bottom 10%;
+  /* background-position: left 0% bottom 10%; */
+  background-position: left 0% bottom 0%;
 }
 
 .about-txt p {
