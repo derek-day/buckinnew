@@ -1274,6 +1274,11 @@ span {
   gap: 1em;
 }
 
+.drink-card {
+  background: #fff;
+  padding: 5%;
+}
+
 .drink-grid h3 {
   font-size: 1.5rem;
   line-height: 2rem;
