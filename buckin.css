@@ -209,19 +209,24 @@ h2 {
 h3,
 h4 {
   font-family: "Recoleta-Bold";
-  font-weight: 500;
+  font-family: "Korolev-Condensed";
+  font-weight: 600;
 }
 
 label {
-  font-family: "Primana Thin";
+  font-family: "Korolev";
+
+  /* font-family: "Primana Thin"; */
   padding-left: 1em;
-  font-weight: 700;
+  /* font-weight: 700; */
   /* letter-spacing: 0.2em; */
 }
 
 button,
 .btn {
-  font-family: "Primana";
+  /* font-family: "Primana"; */
+  font-family: "Korolev";
+
 }
 
 nav a {
