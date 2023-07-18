@@ -253,7 +253,7 @@ p {
   /* letter-spacing: -0.2px; */
   font-size: 18px !important;
   line-height: 1.6em !important;
-  margin: 0 0 15px !important;
+  /* margin: 0 0 15px !important; */
   /* text-wrap: balance; */
 }
 
@@ -1196,8 +1196,8 @@ img {
 }
 
 .about-txt h2:nth-child(1){
-  font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important;
-  /* font-size: 5rem; */
+  /* font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important; */
+  font-size: clamp(2rem, 2.5rem + 3.5vw, 7rem) !important;
   padding-bottom: 0.1em;
   font-family: 'Korolev Heavy' !important;
 
@@ -1243,6 +1243,7 @@ span {
 }
 
 
+
 #menu {
   /* margin-bottom: 14em; */
   /* background-image: url(menubackground.webp); */
@@ -1263,7 +1264,8 @@ span {
 
 #menu h2 {
   /* font-size: 7rem; */
-  font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important;
+  /* font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important; */
+  font-size: clamp(2rem, 2.5rem + 3.5vw, 7rem) !important;
   /* margin-bottom: 0.3em; */
 }
 
@@ -1277,24 +1279,35 @@ span {
 .drink-card {
   background: #fff;
   padding: 5%;
+    background-image: url(menubackground.webp);
+    width: 75%;
+    height: fit-content;
+    justify-self: center;
 }
 
 .drink-grid h3 {
   font-size: 1.5rem;
   line-height: 2rem;
   padding: 0.2em 0 0.2em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .drink-grid p {
   font-size: 1.2rem;
   line-height: 1.7rem;
   text-wrap: balance;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .drink-grid img {
-  width: 50%;
+  width: 75%;
   height: auto;
   display: inline;
+  padding-bottom: 1em;
 }
 
 .slider {
@@ -1358,7 +1371,8 @@ span {
 
 #store h2 {
   /* font-size: 5rem; */
-  font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important;
+  /* font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important; */
+  font-size: clamp(2rem, 2.5rem + 3.5vw, 7rem) !important;
   /* margin-bottom: 0.3em; */
 }
 
@@ -1518,9 +1532,8 @@ footer img {
 }
 
 .fcf-h3 {
-  /* font-size: 1.8rem; */
-  font-size: 3.5rem;
-  /* font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important; */
+  font-size: clamp(2rem, 2.5rem + 3.5vw, 7rem) !important;
+  /* font-size: 3.5rem; */
 }
 
 .fcf-input-group {
