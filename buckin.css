@@ -843,14 +843,13 @@ nav li:nth-child(3) a:before {
   .bullgap div {
     /* width: 600% !important; */
     width: 400% !important;
-    animation: marquee 45s linear infinite !important;
+    animation: marquee 60s linear infinite !important;
   }  
 
   .bullgaprev div {
     /* width: 600% !important; */
     width: 400% !important;
-    /* animation: marqueerev 45s linear infinite !important; */
-    animation: marqueerev 45s linear infinite !important;
+    animation: marqueerev 60s linear infinite !important;
   }  
 }
 
