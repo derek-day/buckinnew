@@ -170,7 +170,7 @@ body {
     font-size: 1.125rem;
     line-height: 0.5;
     /* line-height: 1.5; */
-    background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);
+    /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce); */
     /* background-image: url("noise.png"),linear-gradient(#F9EEE7,#F9EEE7);     */
     background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
 
@@ -403,7 +403,9 @@ p {
   justify-self: center;
    /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
    /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
-   background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
+   /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);     */
+   background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
+
 
    background-position: 0 0,0 0;
    background-size: auto, auto;
@@ -429,7 +431,9 @@ p {
   right:0;
   /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
   /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
-  background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
+  /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);     */
+  background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
+
 
   line-height: 0.5 !important;
   background-position: 0 0,0 0;
@@ -489,7 +493,9 @@ nav {
   transition: transform 400ms ease-in-out;  
   /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
   /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
-  background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
+  /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);     */
+  background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
+
 
   
 }
@@ -887,7 +893,8 @@ section {
   height: 85dvh;
   /* background-image: url("noise.png"),linear-gradient(#F2ECDD,#F2ECDD); */
   /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
-  background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);    
+  /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);     */
+  background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
 
   background-position: 0 0,0 0;
   background-size: auto, auto;
@@ -1322,7 +1329,8 @@ span {
   background: #fff;
   padding: 5%;
     /* background-image: url(menubackground.webp); */
-    background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);
+    /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce); */
+    background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
   
 
     /* width: 75%; */
