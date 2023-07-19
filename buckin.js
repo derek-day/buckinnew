@@ -57,7 +57,7 @@ window.addEventListener("scroll", reveal);
 // Interstitial
 var velocity = 0.5;
 
-function update(){ 
+function inter(){ 
     var pos = $(window).scrollTop(); 
     $('.inter-back').each(function() { 
         var $element = $(this);
@@ -68,7 +68,20 @@ function update(){
     }); 
 };
 
-$(window).bind('scroll', update);
+function intermobile(){ 
+  var pos = $(window).scrollTop(); 
+  $('.inter-back-mob').each(function() { 
+      var $element = $(this);
+      // subtract some from the height b/c of the padding
+      // var height = $element.height()-18;
+      var height = $element.height()*3.5;
+      $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
+  }); 
+};
+
+
+$(window).bind('scroll', inter);
+$(window).bind('scroll', intermobile);
 
 
 // Drink slides

@@ -512,14 +512,12 @@ nav ul {
 } */
   
 nav a {
-  /* color: black; */
   color: var(--txt-color-dark);
   text-decoration: none;
-  font-size: 1.7rem;
-  /* font-size: 1.3rem; */
+  font-size: 1.6rem;
   font-kerning: normal;
-  /* letter-spacing: 0.1em; */
-  letter-spacing: 0.05em;
+  letter-spacing: 1.5px;
+
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -790,9 +788,7 @@ nav li:nth-child(3) a:before {
   .store-grid {
     position: relative;
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 3em;
   }
 
@@ -1412,8 +1408,6 @@ span {
   mix-blend-mode: lighten;
 }
 
-
-
 #store {
   /* margin-bottom: 4em; */
   text-align: center;
@@ -1439,8 +1433,7 @@ span {
 }
 
 #store img {
-  /* width: 100%; */
-  width: 75%;
+  width: 70%;
 }
 
 .store-grid {
@@ -1493,7 +1486,7 @@ span {
 .social-grid img {
   object-fit: contain;
   /* width: 70%; */
-  width: 34em;
+  width: 38em;
   height: auto;
   justify-self: center;
   rotate: -3deg;
