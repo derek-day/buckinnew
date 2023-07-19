@@ -242,7 +242,7 @@ nav a {
   /* font-family: "Primana"; */
   /* font-family: 'Korolev Bold'; */
   font-family: 'Korolev Heavy';
-  /* font-family: 'Korolev'; */
+  font-family: 'Korolev-Condensed';
   /* font-family: "Recoleta-Black"; */
   font-weight: 700;
   font-style: normal;
@@ -516,7 +516,7 @@ nav a {
   text-decoration: none;
   font-size: 1.6rem;
   font-kerning: normal;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5px;
 
   opacity: 0;
   transition: opacity 150ms ease-in-out;
