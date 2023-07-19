@@ -785,6 +785,20 @@ nav li:nth-child(3) a:before {
     text-align: center;
   }  
 
+  .cooler-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 6rem;
+    width: 100%;
+  }
+
+  .cooler-grid p {
+    /* text-align: left; */
+    text-align: center;
+  }  
+
   .store-grid {
     position: relative;
     display: grid;
@@ -1360,7 +1374,88 @@ span {
   height: auto;
   display: inline;
   padding-bottom: 1em;
+  transition: transform 1s ease-in-out;
 }
+
+.drink-grid img:hover {
+  /* scale: 1.1; */
+  transform: scale(1.075);
+}
+
+.drink-grid img:active {
+  /* scale: 1.1; */
+  transform: scale(1.075);
+}
+
+.drink-grid img:focus {
+  /* scale: 1.1; */
+  transform: scale(1.075);
+}
+
+.cooler-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.cooler-card {
+  background: #fff;
+  padding: 5%;
+    /* background-image: url(menubackground.webp); */
+    /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce); */
+    background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
+  
+
+    /* width: 75%; */
+    width: 75%;
+
+    height: fit-content;
+    justify-self: center;
+}
+
+.cooler-grid h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 0.2em 0 0.2em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cooler-grid p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  text-wrap: balance;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cooler-grid img {
+  width: 60%;
+  /* width: 75%; */
+  height: auto;
+  display: inline;
+  padding-bottom: 1em;
+  transition: transform 1s ease-in-out;
+}
+
+.cooler-grid img:hover {
+  /* scale: 1.1; */
+  transform: scale(1.075);
+}
+
+.cooler-grid img:active {
+  /* scale: 1.1; */
+  transform: scale(1.075);
+}
+
+.cooler-grid img:focus {
+  /* scale: 1.1; */
+  transform: scale(1.075);
+}
+
 
 .slider {
   width: 100%;
@@ -1371,6 +1466,13 @@ span {
 }
 
 .drink-slide {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.cooler-slide {
   width: 100%;
   height: 350px;
   position: absolute;
@@ -1400,6 +1502,16 @@ span {
 }
 
 .drink-btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+.cooler-btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.cooler-btn-next {
   top: 45%;
   right: 2%;
 }

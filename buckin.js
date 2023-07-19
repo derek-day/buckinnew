@@ -121,6 +121,45 @@ drinkPrevSlide.addEventListener("click", function () {
   });
 });
 
+// Cooler slides
+const coolerSlides = document.querySelectorAll(".cooler-slide");
+
+coolerSlides.forEach((coolerSlide, coolerIndx) => {
+    coolerSlide.style.transform = `translateX(${coolerIndx * 100}%)`;
+});
+
+const coolerNextSlide = document.querySelector(".cooler-btn-next");
+
+let coolerCurSlide = 0;
+let coolerMaxSlide = coolerSlides.length - 1;
+
+coolerNextSlide.addEventListener("click", function () {
+  if (coolerCurSlide === coolerMaxSlide) {
+    coolerCurSlide = 0;
+  } else {
+    coolerCurSlide++;
+  }
+  coolerSlides.forEach((coolerSlide, coolerIndx) => {
+    coolerSlide.style.transform = `translateX(${100 * (coolerIndx - coolerCurSlide)}%)`;
+  });
+});
+
+const coolerPrevSlide = document.querySelector(".cooler-btn-prev");
+
+coolerPrevSlide.addEventListener("click", function () {
+  if (coolerCurSlide === 0) {
+    coolerCurSlide = coolerMaxSlide;
+  } else {
+    coolerCurSlide--;
+  }
+
+  coolerSlides.forEach((coolerSlide, coolerIndx) => {
+    coolerSlide.style.transform = `translateX(${100 * (coolerIndx - coolerCurSlide)}%)`;
+  });
+});
+
+
+
 // Tumbler slides
 const tumblerSlides = document.querySelectorAll(".tumbler-slide");
 
