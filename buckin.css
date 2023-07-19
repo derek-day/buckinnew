@@ -171,8 +171,8 @@ body {
     /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
     /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
     /* background-image: url("noise.png"),linear-gradient(#f3e4d1,#f3e4d1); */
-    /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce); */
-    background-image: url("noise.png"),linear-gradient(#F9EEE7,#F9EEE7);    
+    background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);
+    /* background-image: url("noise.png"),linear-gradient(#F9EEE7,#F9EEE7);     */
 
 
 
@@ -210,14 +210,19 @@ h3,
 h4 {
   font-family: "Recoleta-Bold";
   font-family: "Korolev-Condensed";
+  font-family: "proxima-nova";
+
   font-weight: 600;
 }
 
 label {
-  font-family: "Korolev";
+  /* font-family: "Korolev"; */
+  font-family: "proxima-nova";
+  font-weight: 600;
 
   /* font-family: "Primana Thin"; */
   padding-left: 1em;
+  padding-bottom: 0.15em;
   /* font-weight: 700; */
   /* letter-spacing: 0.2em; */
 }
@@ -226,15 +231,17 @@ button,
 .btn {
   /* font-family: "Primana"; */
   font-family: "Korolev";
+  /* font-family: "proxima-nova"; */
 
 }
 
 nav a {
   /* font-family: "Primana"; */
-  font-family: 'Korolev Bold';
-  font-family: 'Korolev Heavy';
+  /* font-family: 'Korolev Bold'; */
+  /* font-family: 'Korolev Heavy'; */
+  font-family: 'Korolev';
   /* font-family: "Recoleta-Black"; */
-  /* font-weight: 700; */
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -242,7 +249,8 @@ p,
 textarea {
   /* font-family: "RecoletaAlt-Regular"; */
   /* font-family: "Primana Thin"; */
-  font-family: "Korolev";
+  /* font-family: "Korolev"; */
+  font-family: "proxima-nova";
   /* font-weight: 600; */
   /* font-family: "diazo-mvb-ex-cond"; */
 
@@ -252,7 +260,8 @@ textarea {
 p {
   /* letter-spacing: -0.2px; */
   font-size: 18px !important;
-  line-height: 1.6em !important;
+  line-height: 27px !important;
+  /* line-height: 1.6em !important; */
   /* margin: 0 0 15px !important; */
   /* text-wrap: balance; */
 }
@@ -496,11 +505,11 @@ nav ul {
 nav a {
   color: black;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   /* font-size: 1.3rem; */
   font-kerning: normal;
   /* letter-spacing: 0.1em; */
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -734,7 +743,8 @@ nav li:nth-child(3) a:before {
     display: grid;
     grid-template-columns: 1.7fr 1fr;
     align-items: center;
-    gap: 3rem;
+    /* gap: 3rem; */
+    gap: 2rem;
     width: 100%;
     /* padding: 0px 5% 30px 0% !important;  */
     padding: 0px 0% 0px 0% !important; 
@@ -742,6 +752,7 @@ nav li:nth-child(3) a:before {
 
   .about-txt {
     text-align: -webkit-center;
+    margin-right: 1rem;
   }
 
   .about-txt h2, p {
@@ -785,7 +796,8 @@ nav li:nth-child(3) a:before {
     /* gap: 8em; */
     width: 100%;
     /* padding: 5% 9% 5% 3%; */
-    padding: 5% 8% 5% 3%;
+    /* padding: 5% 8% 5% 3%; */
+    padding: 5% 8% 0% 3%;
   }
     
   .social-links {
@@ -813,7 +825,7 @@ nav li:nth-child(3) a:before {
     /* width: 600% !important; */
     width: 400% !important;
     /* animation: marqueerev 45s linear infinite !important; */
-    animation: marqueerev 60s linear infinite !important;
+    animation: marqueerev 45s linear infinite !important;
   }  
 }
 
@@ -870,7 +882,8 @@ section {
 
   background-position: 0 0,0 0;
   background-size: auto, auto;
-  animation: returnToOrigin 0.5s ease-out forwards, scroll 600s linear infinite;
+  /* animation: returnToOrigin 0.5s ease-out forwards, scroll 600s linear infinite; */
+  animation: returnToOrigin 0.5s ease-out forwards, scroll 1000s linear infinite;
   animation-delay: 0.1s;
   transition: fill 600ms cubic-bezier(0.215, 0.61, 0.355, 1),opacity 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
   opacity: 0;
@@ -965,10 +978,8 @@ section {
   overflow: hidden;
   position: relative;
   float: right;
-  margin-top: 2em;
-  margin-bottom: 2em; 
-  /* filter: blur(1.2px); */
-  filter: blur(1px);
+  /* margin-top: 2em;
+  margin-bottom: 2em;  */
 }
 
 .bullgaprev div {
@@ -1198,7 +1209,7 @@ img {
 .about-txt h2:nth-child(1){
   /* font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important; */
   font-size: clamp(2rem, 2.5rem + 3.5vw, 7rem) !important;
-  padding-bottom: 0.1em;
+  padding-bottom: 0.2em;
   font-family: 'Korolev Heavy' !important;
 
 }
@@ -1219,6 +1230,8 @@ span {
   font-size: 1.2rem;
   line-height: 1.7rem;
   text-wrap: balance;
+  margin-bottom: 15px;
+  margin-top: 0.5rem;
 }
 
 .about-bull {
@@ -1246,13 +1259,13 @@ span {
 
 #menu {
   /* margin-bottom: 14em; */
-  /* background-image: url(menubackground.webp); */
+  background-image: url(menubackground.webp);
   margin-bottom: 4em;
   text-align: center;
 }
 
 #menu::after {
-  content:'';
+  /* content:''; */
   border-bottom: 3px solid var(--orange);
   width:75%;
   bottom:0;
@@ -1279,8 +1292,13 @@ span {
 .drink-card {
   background: #fff;
   padding: 5%;
-    background-image: url(menubackground.webp);
+    /* background-image: url(menubackground.webp); */
+    background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);
+  
+
+    /* width: 75%; */
     width: 75%;
+
     height: fit-content;
     justify-self: center;
 }
@@ -1358,7 +1376,7 @@ span {
 }
 
 #store::after {
-  content:'';
+  /* content:''; */
   border-bottom: 3px solid var(--orange);
   width:75%;
   bottom:0;
@@ -1490,15 +1508,16 @@ footer img {
 .footer-links a {
   color: #E5D8B2;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   transition: opacity 150ms ease-in-out;
   letter-spacing: 0.1em;
   font-kerning: normal;
   /* font-family: "Recoleta-SemiBold";
   font-weight: 500; */
-  font-family: "diazo-mvb-ex-cond", sans-serif;
-  font-weight: 500;
+  /* font-family: "diazo-mvb-ex-cond", sans-serif; */
+  font-family: 'korolev';
+  font-weight: 600;
   font-style: normal;
   position: relative;
 }
@@ -1528,7 +1547,8 @@ footer img {
 }
 
 .fcf-form-group {
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  margin-bottom: 1.5rem;
 }
 
 .fcf-h3 {
@@ -1562,7 +1582,8 @@ footer img {
   background-clip: padding-box;
   /* border: 1px solid #ced4da; */
   border: 2px solid #2c2c2c;
-  font-family: "Primana Thin";
+  /* font-family: "Primana Thin"; */
+  font-family: "proxima-nova";
   outline: none;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -1583,7 +1604,7 @@ textarea.fcf-form-control {
 label.fcf-label {
   display: inline-block;
   margin-bottom: 0.5rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .fcf-credit {
