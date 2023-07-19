@@ -129,7 +129,9 @@
 
 :root {
   /* --txt-color-dark: #1d171f; */
-  --txt-color-dark: #0b090c;
+  /* --txt-color-dark: #0b090c; */
+  /* --txt-color-dark: #1e140d; */
+  --txt-color-dark: #28190E; 
   --background: #f2f0e3;
   --orange: #ff9e3a;
 
@@ -201,10 +203,12 @@ h2 {
   font-weight: 800; */
   font-family: "Korolev Heavy";
 
+  font-size: 85px !important;
+
   /* font-size: 55px !important; */
-  line-height: 69px !important;
+  line-height: 80px !important;
   /* padding-bottom: 1.5rem !important; */
-  padding-bottom: 40px !important;
+  padding-bottom: 30px !important;
 }
 
 h3,
@@ -781,7 +785,8 @@ nav li:nth-child(3) a:before {
   .store-grid {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 3em;
   }
@@ -1219,7 +1224,8 @@ img {
 
 .about-txt h2 {
   /* font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important; */
-  font-size: clamp(2rem, 2.5rem + 3.5vw, 7rem) !important;
+  /* font-size: clamp(2rem, 2.5rem + 3.5vw, 7rem) !important; */
+  font-size: 85px;
   padding-bottom: 0.2em;
   font-family: 'Korolev Heavy' !important;
 
@@ -1346,7 +1352,8 @@ span {
 }
 
 .drink-grid img {
-  width: 75%;
+  width: 60%;
+  /* width: 75%; */
   height: auto;
   display: inline;
   padding-bottom: 1em;
@@ -1501,7 +1508,7 @@ footer {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 0 2% 5px;
+  padding: 0 2%;
 }
 
 .footer-logo {
@@ -1512,7 +1519,8 @@ footer {
 footer img {
   width: 80px;
   height: auto;
-  padding: 7px;
+  /* padding: 7px; */
+  padding: 0px 7px 7px;
 }
 
 .footer-link {
