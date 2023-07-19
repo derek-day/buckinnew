@@ -1408,6 +1408,12 @@ span {
   right: 2%;
 }
 
+.inter-back {
+  mix-blend-mode: lighten;
+}
+
+
+
 #store {
   /* margin-bottom: 4em; */
   text-align: center;

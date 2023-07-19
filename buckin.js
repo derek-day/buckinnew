@@ -33,7 +33,6 @@ function showSlides() {
   setTimeout(showSlides, 8000);
   homeslide1.backgroundPosition = "0px 10%";
   homeslide2.backgroundPosition = "0px 5%";
-
 }
 
 function reveal() {
@@ -53,6 +52,24 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+
+// Interstitial
+var velocity = 0.5;
+
+function update(){ 
+    var pos = $(window).scrollTop(); 
+    $('.inter-back').each(function() { 
+        var $element = $(this);
+        // subtract some from the height b/c of the padding
+        // var height = $element.height()-18;
+        var height = $element.height()*2.25;
+        $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
+    }); 
+};
+
+$(window).bind('scroll', update);
+
 
 // Drink slides
 const drinkSlides = document.querySelectorAll(".drink-slide");
