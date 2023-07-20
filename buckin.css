@@ -921,12 +921,14 @@ section {
 }
 
 .home h2 {
-  /* font-family: 'Primana Thin'; */
-  font-family: 'Korolev';
+  font-family: 'Primana Thin';
+  /* font-family: 'Korolev'; */
   font-weight: 200;
   text-wrap: balance;
   padding-top: 0.25em;
   padding-bottom: 0.1em;
+  font-size: 40px !important;
+  line-height: 50px !important;
 }
 
 #home1 {
