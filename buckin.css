@@ -295,9 +295,9 @@ p,
 textarea {
   /* font-family: "RecoletaAlt-Regular"; */
   font-family: "Primana Thin";
-  /* font-family: "Korolev"; */
+  font-family: "Korolev-Condensed";
   /* font-family: "proxima-nova"; */
-  /* font-weight: 600; */
+  font-weight: 600;
   /* font-family: "diazo-mvb-ex-cond"; */
   font-size: var(--font-size-2) !important;
   /* font-weight: 500; */
