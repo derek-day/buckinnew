@@ -582,7 +582,8 @@ nav li:not(:last-child) a::before {
   width: 100%;
   height: 4px;
   border-radius: 4px;
-  background-color: #18272F;
+  /* background-color: #18272F; */
+  background-color: var(--txt-color-dark);
   /* bottom: 0; */
   bottom: -2px;
   left: 0;
@@ -804,7 +805,7 @@ nav li:nth-child(3) a:before {
 
   .home-txt {
     /* padding: 12% 12% 12% 16%; */
-    padding: 6% 12% 12% 16%;
+    padding: 4% 12% 12% 16%;
     max-width: 750px;
   }
 
