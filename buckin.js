@@ -1,39 +1,25 @@
-// window.onscroll = changePos;
 
-// function changePos() {
-//     var header = document.getElementById("header");
+// let slideIndex = 0;
+// showSlides();
 
-//     if (window.scrollY > 40) {
-//         header.style.position = "relative";
-//         header.style.top = (scrollY - 40) + "px";
-//     } else {
-//         header.style.position = "";
-//         header.style.top = "";
-//     }
+// function showSlides() {
+//   let i;
+//   let slides = document.getElementsByClassName("slide-div");
+//   let homeslide1 = document.getElementById("home1");
+//   let homeslide2 = document.getElementById("home2");
+//   homeslide1.backgroundPosition = "0px 10%";
+//   homeslide2.backgroundPosition = "0px 5%";
+
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";  
+//   }
+//   slideIndex++;
+//   if (slideIndex > slides.length) {slideIndex = 1}    
+//   slides[slideIndex-1].style.display = "grid";  
+//   setTimeout(showSlides, 8000);
+//   homeslide1.backgroundPosition = "0px 10%";
+//   homeslide2.backgroundPosition = "0px 5%";
 // }
-
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("slide-div");
-  let homeslide1 = document.getElementById("home1");
-  let homeslide2 = document.getElementById("home2");
-  homeslide1.backgroundPosition = "0px 10%";
-  homeslide2.backgroundPosition = "0px 5%";
-
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  slides[slideIndex-1].style.display = "grid";  
-  // setTimeout(showSlides, 6500);
-  setTimeout(showSlides, 8000);
-  homeslide1.backgroundPosition = "0px 10%";
-  homeslide2.backgroundPosition = "0px 5%";
-}
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
