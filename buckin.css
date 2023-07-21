@@ -1145,7 +1145,7 @@ section {
   color: white;
 
   transition: background-color 1s;
-  /* padding: 8px 15px; */
+  /* padding: 8px 15px; use this for smaller screens. for some reason bigger screen needs more top padding */
   padding: 12px 15px 8px;
   border-radius: 0.5rem;
 }
@@ -1350,8 +1350,8 @@ img {
 }
 
 .home-img {
-  background-image: url('orangetrailer15.png');
-  background-image: url('milk6.png');
+  /* background-image: url('orangetrailer15.png');
+  background-image: url('milk6.png'); */
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
@@ -1361,12 +1361,12 @@ img {
   display: block;
   width: 50%;
   float: right;
-  transition: transform 1s ease-in-out;
+  /* transition: transform 1s ease-in-out; */
 }
 
 .home-img:hover {
   /* scale: 1.1; */
-  transform: scale(1.025);
+  /* transform: scale(1.025); */
 }
 
 .about-right {
@@ -1385,7 +1385,8 @@ img {
 }
 
 .tapered {
-  background-image: linear-gradient(181deg, #fab855 0%, #FF9E3A 50%, transparent 54%, transparent 100%);
+  /* background-image: linear-gradient(181deg, #fab855 0%, #FF9E3A 50%, transparent 54%, transparent 100%); */
+  background-image: linear-gradient(181deg, #fab855 0%, #f08614 50%, transparent 54%, transparent 100%);
 }
 
 span {

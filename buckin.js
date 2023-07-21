@@ -1,25 +1,21 @@
 
-// let slideIndex = 0;
-// showSlides();
+let slideIndex = 0;
+showSlides();
 
-// function showSlides() {
-//   let i;
-//   let slides = document.getElementsByClassName("slide-div");
-//   let homeslide1 = document.getElementById("home1");
-//   let homeslide2 = document.getElementById("home2");
-//   homeslide1.backgroundPosition = "0px 10%";
-//   homeslide2.backgroundPosition = "0px 5%";
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("slide-div");
+  let homeslide1 = document.getElementsByClassName("home1");
+  let homeslide2 = document.getElementsByClassName("home2");
 
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].style.display = "none";  
-//   }
-//   slideIndex++;
-//   if (slideIndex > slides.length) {slideIndex = 1}    
-//   slides[slideIndex-1].style.display = "grid";  
-//   setTimeout(showSlides, 8000);
-//   homeslide1.backgroundPosition = "0px 10%";
-//   homeslide2.backgroundPosition = "0px 5%";
-// }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 12000);
+}
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
