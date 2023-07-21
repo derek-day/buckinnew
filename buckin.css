@@ -451,7 +451,8 @@ p {
    /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
    /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
    /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);     */
-   background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
+   /* background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7); */
+   background-image: var(--backgroundimage);
 
 
    background-position: 0 0,0 0;
