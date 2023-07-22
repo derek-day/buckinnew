@@ -67,7 +67,7 @@ function inter2(){
       var $element = $(this);
       // subtract some from the height b/c of the padding
       // var height = $element.height()-18;
-      var height = $element.height()*1.25;
+      var height = $element.height()*1.55;
       $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
   }); 
 };
@@ -78,7 +78,7 @@ function inter3(){
       var $element = $(this);
       // subtract some from the height b/c of the padding
       // var height = $element.height()-18;
-      var height = $element.height()*1.25;
+      var height = $element.height()*1.75;
       $(this).css('backgroundPosition', '50% ' + Math.round((height + pos) * velocity) + 'px'); 
   }); 
 };
