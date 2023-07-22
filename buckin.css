@@ -788,8 +788,12 @@ nav li:nth-child(3) a:before {
     line-height: 1;
   }    
 
-  .home-img {
+  .home1 .home-img {
     margin-top: -4%;
+  }
+
+  .home2 .home-img {
+    margin-top: -3.6%;
   }
 
   #about {
@@ -807,6 +811,12 @@ nav li:nth-child(3) a:before {
   .home-txt {
     /* padding: 12% 12% 12% 16%; */
     padding: 4% 12% 12% 16%;
+    max-width: 750px;
+  }
+
+  .home-txt2 {
+    /* padding: 12% 12% 12% 16%; */
+    padding: 10% 12% 12% 16%;
     max-width: 750px;
   }
 
@@ -1383,7 +1393,22 @@ img {
   display: block;
 }
 
-.home-img {
+.home1 .home-img {
+  /* background-image: url('orangetrailer15.png');
+  background-image: url('milk6.png'); */
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 675px;
+  height: 100%;
+  display: block;
+  width: 50%;
+  float: right;
+  /* transition: transform 1s ease-in-out; */
+}
+
+.home2 .home-img {
   /* background-image: url('orangetrailer15.png');
   background-image: url('milk6.png'); */
   background-attachment: scroll;
