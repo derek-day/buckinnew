@@ -41,7 +41,7 @@ var velocity = 0.5;
 
 function inter(){ 
     var pos = $(window).scrollTop(); 
-    $('.inter-back').each(function() { 
+    $('.inter-back1').each(function() { 
         var $element = $(this);
         // subtract some from the height b/c of the padding
         // var height = $element.height()-18;
@@ -61,9 +61,33 @@ function intermobile(){
   }); 
 };
 
+function inter2(){ 
+  var pos = $(window).scrollTop(); 
+  $('.inter-back2').each(function() { 
+      var $element = $(this);
+      // subtract some from the height b/c of the padding
+      // var height = $element.height()-18;
+      var height = $element.height()*1.25;
+      $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
+  }); 
+};
+
+function inter3(){ 
+  var pos = $(window).scrollTop(); 
+  $('.inter-back3').each(function() { 
+      var $element = $(this);
+      // subtract some from the height b/c of the padding
+      // var height = $element.height()-18;
+      var height = $element.height()*1.25;
+      $(this).css('backgroundPosition', '50% ' + Math.round((height + pos) * velocity) + 'px'); 
+  }); 
+};
+
 
 $(window).bind('scroll', inter);
 $(window).bind('scroll', intermobile);
+$(window).bind('scroll', inter2);
+$(window).bind('scroll', inter3);
 
 
 // Drink slides
