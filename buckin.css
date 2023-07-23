@@ -1528,24 +1528,30 @@ opacity: 0.825;
 .drink-card {
   background: #fff;
   padding: 5%;
-  background-image: url(menubackground.webp);
-  background-image: var(--backgroundimage2);
+  /* background-image: url(menubackground.webp); */
+  /* background-image: var(--backgroundimage2); */
   width: 80%;
+  background-color: var(--background);
+  background-color: white;
   height: fit-content;
   justify-self: center;
-  transition: transform 1s ease-in-out;
+  transition: background-color 0.75s ease-in-out;
   border-radius: 1rem;
+  border: 1.5px solid var(--txt-color-dark);
 }
 
 .drink-card:hover,
 .drink-card:active,
 .drink-card:focus{
-  transform: scale(1.075);
+  /* transform: scale(1.075); */
+  background-color: var(--orange);
+  background-color: #fcc578;
+  background-color: var(--background);
 }
 
 .drink-grid h4 {
-  font-size: 3.6rem !important;
-  padding-top: 1rem;
+  font-size: 3.2rem !important;
+  padding-top: 2rem;
   padding-bottom: 1.5rem;
 }
 
@@ -1559,7 +1565,7 @@ opacity: 0.825;
 }
 
 .drink-grid p {
-  font-size: 2.2rem !important;
+  font-size: 2rem !important;
   line-height: 3rem !important;
   text-wrap: balance;
   /* width: 50%; */
@@ -1569,11 +1575,11 @@ opacity: 0.825;
 }
 
 .drink-grid img {
-  width: 80%;
+  width: 70%;
   height: auto;
   display: inline;
   padding-bottom: 1em;
-  background-color: var(--background);
+  /* background-color: var(--background); */
 }
 
 .cooler-grid {
