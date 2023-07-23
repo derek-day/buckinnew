@@ -83,12 +83,23 @@ function inter3(){
   }); 
 };
 
+function menuback(){ 
+  var pos = $(window).scrollTop(); 
+  $('.menu-back').each(function() { 
+      var $element = $(this);
+      // subtract some from the height b/c of the padding
+      // var height = $element.height()-18;
+      var height = $element.height();
+      $(this).css('backgroundPosition', '50% ' + Math.round((height + pos) * velocity) + 'px'); 
+  }); 
+};
+
 
 $(window).bind('scroll', inter);
 $(window).bind('scroll', intermobile);
 $(window).bind('scroll', inter2);
 $(window).bind('scroll', inter3);
-
+$(window).bind('scroll', menuback);
 
 // Drink slides
 const drinkSlides = document.querySelectorAll(".drink-slide");
