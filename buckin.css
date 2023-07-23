@@ -1500,9 +1500,7 @@ span {
 
 
 #menu {
-  /* margin-bottom: 14em; */
   margin-top: -75px;
-  /* background-image: url(menubackground.webp); */
   margin-bottom: 4em;
   text-align: center;
 }
@@ -1518,32 +1516,35 @@ mix-blend-mode: hard-light;
 opacity: 0.825;
 }
 
-
-#menu h2 {
-  /* font-size: 7rem; */
-  /* font-size: clamp(2rem, 1rem + 3.5vw, 7rem) !important; */
-  /* font-size: clamp(2rem, 2.5rem + 3.5vw, 7rem) !important; */
-  /* margin-bottom: 0.3em; */
-}
-
 .drink-grid {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
+  padding: 0 48px;
 }
 
 .drink-card {
   background: #fff;
   padding: 5%;
-  background-image: var(--backgroundimage);
-  
+  background-image: url(menubackground.webp);
+  width: 80%;
+  height: fit-content;
+  justify-self: center;
+  transition: transform 1s ease-in-out;
+  border-radius: 1rem;
+}
 
-    /* width: 75%; */
-    width: 75%;
+.drink-card:hover,
+.drink-card:active,
+.drink-card:focus{
+  transform: scale(1.075);
+}
 
-    height: fit-content;
-    justify-self: center;
+.drink-grid h4 {
+  font-size: 3.6rem !important;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .drink-grid h3 {
@@ -1556,36 +1557,20 @@ opacity: 0.825;
 }
 
 .drink-grid p {
-  font-size: 1.2rem;
-  line-height: 1.7rem;
+  font-size: 2.2rem !important;
+  line-height: 3rem !important;
   text-wrap: balance;
-  width: 50%;
+  /* width: 50%; */
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .drink-grid img {
-  width: 60%;
-  /* width: 75%; */
+  width: 80%;
   height: auto;
   display: inline;
   padding-bottom: 1em;
-  transition: transform 1s ease-in-out;
-}
-
-.drink-grid img:hover {
-  /* scale: 1.1; */
-  transform: scale(1.075);
-}
-
-.drink-grid img:active {
-  /* scale: 1.1; */
-  transform: scale(1.075);
-}
-
-.drink-grid img:focus {
-  /* scale: 1.1; */
-  transform: scale(1.075);
 }
 
 .cooler-grid {
@@ -1593,19 +1578,30 @@ opacity: 0.825;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
+  padding: 0 48px;
 }
 
 .cooler-card {
   background: #fff;
   padding: 5%;
-  background-image: var(--backgroundimage);
-  
+  background-image: url(menubackground.webp);
+  width: 80%;
+  height: fit-content;
+  justify-self: center;
+  transition: transform 1s ease-in-out;
+  border-radius: 1rem;
+}
 
-    /* width: 75%; */
-    width: 75%;
+.cooler-card:hover,
+.cooler-card:active,
+.cooler-card:focus{
+  transform: scale(1.075);
+}
 
-    height: fit-content;
-    justify-self: center;
+.cooler-card h4 {
+  font-size: 3.6rem !important;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .cooler-grid h3 {
@@ -1618,17 +1614,17 @@ opacity: 0.825;
 }
 
 .cooler-grid p {
-  font-size: 1.2rem;
-  line-height: 1.7rem;
+  font-size: 2.2rem !important;
+  line-height: 3rem !important;
   text-wrap: balance;
-  width: 50%;
+  /* width: 50%; */
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .cooler-grid img {
-  width: 60%;
-  /* width: 75%; */
+  width: 63%;
   height: auto;
   display: inline;
   padding-bottom: 1em;
@@ -1636,17 +1632,14 @@ opacity: 0.825;
 }
 
 .cooler-grid img:hover {
-  /* scale: 1.1; */
   transform: scale(1.075);
 }
 
 .cooler-grid img:active {
-  /* scale: 1.1; */
   transform: scale(1.075);
 }
 
 .cooler-grid img:focus {
-  /* scale: 1.1; */
   transform: scale(1.075);
 }
 
@@ -1656,7 +1649,6 @@ opacity: 0.825;
   height: 350px;
   position: relative;
   overflow-x: clip;
-  /* margin-bottom: clamp(5em, 6vh + 6em, 10em); */
 }
 
 .drink-slide {
@@ -1677,7 +1669,7 @@ opacity: 0.825;
   position: absolute;
   width: 40px;
   height: 40px;
-  padding: 10px;
+  /* padding: 10px; */
   border: none;
   border-radius: 50%;
   z-index: 10px;
@@ -1691,22 +1683,22 @@ opacity: 0.825;
 }
 
 .drink-btn-prev {
-  top: 45%;
+  top: 55%;
   left: 2%;
 }
 
 .drink-btn-next {
-  top: 45%;
+  top: 55%;
   right: 2%;
 }
 
 .cooler-btn-prev {
-  top: 45%;
+  top: 55%;
   left: 2%;
 }
 
 .cooler-btn-next {
-  top: 45%;
+  top: 55%;
   right: 2%;
 }
 
