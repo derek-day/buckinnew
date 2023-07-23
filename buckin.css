@@ -1529,10 +1529,9 @@ opacity: 0.825;
   background: #fff;
   padding: 5%;
   /* background-image: url(menubackground.webp); */
-  /* background-image: var(--backgroundimage2); */
   width: 80%;
-  background-color: var(--background);
-  background-color: white;
+  /* background-color: var(--background); */
+  background-image: var(--backgroundimage);
   height: fit-content;
   justify-self: center;
   transition: background-color 0.75s ease-in-out;
@@ -1575,7 +1574,7 @@ opacity: 0.825;
 }
 
 .drink-grid img {
-  width: 70%;
+  width: 65%;
   height: auto;
   display: inline;
   padding-bottom: 1em;
