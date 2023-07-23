@@ -137,6 +137,7 @@
   --orange: #ff9e3a;
 
   --backgroundimage: url("noise.png"),linear-gradient(#feecd3,#feecd3);
+  --backgroundimage2: url("noise.png"),linear-gradient(#28190E,#28190E);
 
 
   /* --font-size-1: 0.8rem; */
@@ -1528,6 +1529,7 @@ opacity: 0.825;
   background: #fff;
   padding: 5%;
   background-image: url(menubackground.webp);
+  background-image: var(--backgroundimage2);
   width: 80%;
   height: fit-content;
   justify-self: center;
@@ -1571,6 +1573,7 @@ opacity: 0.825;
   height: auto;
   display: inline;
   padding-bottom: 1em;
+  background-color: var(--background);
 }
 
 .cooler-grid {
