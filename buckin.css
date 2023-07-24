@@ -1532,8 +1532,8 @@ opacity: 0.825;
   background-image: var(--backgroundimage);
   height: fit-content;
   justify-self: center;
-  transition: background-color 0.75s ease-in-out;
-  border-radius: 1rem;
+  /* transition: scale 1.5s ease-in-out; */
+  border-radius: 2rem;
   border: 1.5px solid var(--txt-color-dark);
 }
 
@@ -1541,9 +1541,6 @@ opacity: 0.825;
 .drink-card:active,
 .drink-card:focus{
   /* transform: scale(1.075); */
-  background-color: var(--orange);
-  background-color: #fcc578;
-  background-color: var(--background);
 }
 
 .drink-grid h4 {
@@ -1577,7 +1574,14 @@ opacity: 0.825;
   display: inline;
   padding-top: 2rem;
   padding-bottom: 3rem;
+  transition: scale 1.5s ease-in-out;
   /* background-color: var(--background); */
+}
+
+.drink-grid img:hover,
+.drink-grid img:active,
+.drink-grid img:focus{
+  transform: scale(1.075);
 }
 
 .cooler-grid {
@@ -1596,7 +1600,7 @@ opacity: 0.825;
   height: fit-content;
   justify-self: center;
   transition: background-color 0.75s ease-in-out;
-  border-radius: 1rem;
+  border-radius: 2rem;
   border: 1.5px solid var(--txt-color-dark);
 }
 
@@ -1757,7 +1761,7 @@ opacity: 0.825;
   text-align: -webkit-center;
 }
 
-.store-grid h3 {
+/* .store-grid h3 {
   margin-top: 0.5em;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1769,13 +1773,74 @@ opacity: 0.825;
   line-height: 1.7rem;
   text-wrap: balance;
   text-align: center;
+} */
+
+.store-grid h4 {
+  font-size: 2.8rem !important;
+  padding-bottom: 1rem;
 }
 
+.store-grid h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 0.2em 0 0.2em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.store-grid p {
+  font-size: 1.8rem !important;
+  line-height: 3rem !important;
+  text-wrap: balance;
+  /* width: 50%; */
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.store-grid img {
+  width: 55%;
+  height: auto;
+  display: inline;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  border-radius: 10%;
+  /* background-color: var(--background); */
+}
+
+.store-card {
+  padding: 5%;
+  width: 80%;
+  background-image: var(--backgroundimage);
+  height: fit-content;
+  justify-self: center;
+  transition: background-color 0.75s ease-in-out;
+  border-radius: 2rem;
+  border: 1.5px solid var(--txt-color-dark);
+}
+
+.store-card:nth-child(3) {
+  border: none;
+  background-image: none;
+}
+
+
 .tumbler-slide {
-  width: 100%;
+  /* width: 100%; */
   max-width: 800px;
   position: absolute;
   transition: all 0.5s;
+
+  padding: 5%;
+  background-image: var(--backgroundimage);
+  height: fit-content;
+  justify-self: center;
+  transition: background-color 0.75s ease-in-out;
+  border-radius: 1rem;
+  border: 1.5px solid var(--txt-color-dark);
 }
 
 .tumbler-slide img {
