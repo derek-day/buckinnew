@@ -219,7 +219,7 @@ p {
 h1 {
   font-size: var(--font-size-6) !important;
   line-height: 100px !important;
-  color: var(--background2) !important;
+  /* color: var(--background2) !important; */
 }
 
 h2 {
@@ -957,7 +957,7 @@ nav li:nth-child(3) a:before {
   z-index: -1;
   background: var(--txt-color-dark);
   mix-blend-mode: hard-light;
-  opacity: 0.825;
+  opacity: 0.75;
 }
 
 .home-txt2::after {
@@ -970,7 +970,7 @@ nav li:nth-child(3) a:before {
   opacity: 0.6; */
   background: var(--txt-color-dark);
   mix-blend-mode: hard-light;
-  opacity: 0.825;
+  opacity: 0.75;
 }
 
 
