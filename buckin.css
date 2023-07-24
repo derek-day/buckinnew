@@ -132,11 +132,16 @@
   /* --txt-color-dark: #0b090c; */
   /* --txt-color-dark: #1e140d; */
   --txt-color-dark: #28190E; 
+  /* --txt-color-dark: #522D23; */
   --background: #fdf5e6;
   --background: #feecd3;
+  --background2: #F4C46F;
+  /* --background: #F7F4DE; */
   --orange: #ff9e3a;
 
   --backgroundimage: url("noise.png"),linear-gradient(#feecd3,#feecd3);
+  /* --backgroundimage: url("noise.png"),linear-gradient(#F4C46F, #F4C46F); */
+  /* --backgroundimage: url("noise.png"),linear-gradient(#F7F4DE,#F7F4DE); */
   --backgroundimage2: url("noise.png"),linear-gradient(#28190E,#28190E);
 
 
@@ -214,6 +219,7 @@ p {
 h1 {
   font-size: var(--font-size-6) !important;
   line-height: 100px !important;
+  color: var(--background2) !important;
 }
 
 h2 {
