@@ -898,8 +898,8 @@ nav li:nth-child(3) a:before {
   }
 
   section {
-    /* padding: 40px 5% 60px !important;  */
     padding: 70px 5% 70px !important; 
+    padding: 50px 5% 50px !important; 
   }
 
   .bullgap div {
@@ -1743,6 +1743,15 @@ opacity: 0.825;
   margin-top: 4em;
 }
 
+.menu-back::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--txt-color-dark);
+  mix-blend-mode: hard-light;
+  opacity: 0.625;
+}
 
 #store h2 {
   /* font-size: 5rem; */
@@ -1827,7 +1836,6 @@ opacity: 0.825;
   background-image: none;
 }
 
-
 .tumbler-slide {
   /* width: 100%; */
   max-width: 800px;
@@ -1850,12 +1858,12 @@ opacity: 0.825;
 }
 
 .tumbler-btn-prev {
-  top: 70%;
+  top: 50%;
   left: 2%;
 }
 
 .tumbler-btn-next {
-  top: 70%;
+  top: 50%;
   right: 2%;
 }
 

@@ -96,14 +96,14 @@
     </div> -->
 
     <!-- <div> -->
-    <div class="menu-back" style="background-image:url(bullbl2.png);">
+    <div class="menu-back" style="background-image:url(bullbl2.png);position:relative;z-index:1;">
     <section id="menu" style="padding: 200px 0% 70px !important;" class="">
       <div>
       <h2 style="color: var(--background);"><span class="tapered" style="color: #fff;color: rgba(0, 0, 0, 0);-webkit-text-stroke: 3px var(--background);background-position: left 0% bottom 0%;">MENU</span></h2>
       <h4 style="color: var(--background);font-family:'proxima-nova';font-size:1.3rem;margin-top:0.25em;margin-bottom:2.5em;">All drinks available sugar-free by request!</h4>
 
 
-        <div>
+        <div class="drink-overlay">
         <!-- <div class="menu-back" style="background-image:url(bullbl2.png);background-position: center;"> -->
         <h3 style="font-size: var(--font-size-7) !important;padding-top:4rem;position:relative;z-index:2;color: var(--background);"><span class="tapered" style="background-position: left 0% bottom 0%;">Coffee &amp; Tea</span></h3>
         <div class="slider" style="z-index:1;padding-top: 36px;">
@@ -231,8 +231,11 @@
     </div>
     
     <section id="store" class="">
-      <h2><span class="tapered">Merch</span></h2>
-      <h4 style="font-family:'proxima-nova';font-size:1.3rem;margin-top:0.25em;margin-bottom:2.5em;">Items available at our trailer!</h4>
+      <div class="store-header">
+      <h2 style="color: var(--background);"><span class="tapered" style="color: #fff;color: rgba(0, 0, 0, 0);-webkit-text-stroke: 3px var(--background);background-position: left 0% bottom 0%;">MERCH</span></h2>
+      <!-- <h2><span class="tapered">Merch</span></h2> -->
+      <h4 style="color: var(--background);font-family:'proxima-nova';font-size:1.3rem;margin-top:0.25em;margin-bottom:2.5em;">Items available at our trailer!</h4>
+      </div>
       <div class="store-grid">      
         <div class="store-card">
           <img src="store1.jpeg">
@@ -246,15 +249,15 @@
         </div>
         <div class="store-card">
           <div class="slider">
-            <div class="tumbler-slide">
+            <div class="tumbler-slide" style="top: -28px;">
               <img src="store3.jpeg" />
               <h3>Tumbler - $20</h3>
               <p>Glass Tumbler (16oz) with custom graphics!<br> Wooden lid &amp; metal straw included.</p>    
             </div>
-            <div class="tumbler-slide">
+            <div class="tumbler-slide" style="top: -28px;">
               <img src="store4.jpeg" />
               <h3>Tumbler - $20</h3>
-              <p>Glass Tumbler (16oz) with custom graphics!<br> Wooden lid &amp; metal straw included</p>    
+              <p>Glass Tumbler (16oz) with custom graphics!<br> Wooden lid &amp; metal straw included.</p>    
             </div>
             <button class="slide-btn tumbler-btn-next">></button>
             <button class="slide-btn tumbler-btn-prev"><
