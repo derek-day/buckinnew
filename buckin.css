@@ -198,6 +198,7 @@ body {
 
     background-position: 0 0,0 0;
     background-size: auto, auto;
+    width: 100dvw;
 }
 
 .preload * {
@@ -815,14 +816,12 @@ nav li:nth-child(3) a:before {
   }
 
   .home-txt {
-    /* padding: 12% 12% 12% 16%; */
-    padding: 4% 12% 12% 16%;
+    padding: 5% 0% 12% 25%;
     max-width: 750px;
   }
 
   .home-txt2 {
-    /* padding: 12% 12% 12% 16%; */
-    padding: 10% 12% 12% 16%;
+    padding: 10% 0% 12% 25%;
     max-width: 750px;
   }
 
@@ -977,7 +976,7 @@ nav li:nth-child(3) a:before {
 .container {
   position: relative;
   text-align: center;
-  width: 100dvw;
+  /* width: 100dvw; */
 }
 
 .centered {
@@ -1713,6 +1712,18 @@ opacity: 0.825;
   right: 2%;
 }
 
+.drink-btn-prev:hover,
+.drink-btn-prev:focus,
+.drink-btn-prev:active {
+  transform: scale(1.1);
+}
+
+.drink-btn-next:hover,
+.drink-btn-next:focus,
+.drink-btn-next:active {
+  transform: scale(1.1);
+}
+
 .cooler-btn-prev {
   top: 55%;
   left: 2%;
@@ -1721,6 +1732,18 @@ opacity: 0.825;
 .cooler-btn-next {
   top: 55%;
   right: 2%;
+}
+
+.cooler-btn-prev:hover,
+.cooler-btn-prev:focus,
+.cooler-btn-prev:active {
+  transform: scale(1.1);
+}
+
+.cooler-btn-next:hover,
+.cooler-btn-next:focus,
+.cooler-btn-next:active {
+  transform: scale(1.1);
 }
 
 .inter-back {
@@ -1830,7 +1853,7 @@ opacity: 0.825;
 
 .store-card {
   padding: 5%;
-  width: 80%;
+  width: 70%;
   background-image: var(--backgroundimage);
   height: fit-content;
   justify-self: center;
@@ -1867,12 +1890,24 @@ opacity: 0.825;
 
 .tumbler-btn-prev {
   top: 50%;
-  left: 2%;
+  left: 4%;
 }
 
 .tumbler-btn-next {
   top: 50%;
-  right: 2%;
+  right: 4%;
+}
+
+.tumbler-btn-prev:hover,
+.tumbler-btn-prev:focus,
+.tumbler-btn-prev:active {
+  transform: scale(1.5);
+}
+
+.tumbler-btn-next:hover,
+.tumbler-btn-next:focus,
+.tumbler-btn-next:active {
+  transform: scale(1.5);
 }
 
 .social-grid {
@@ -1906,6 +1941,8 @@ footer {
   z-index: 999;
   width: 100%;
   background-color: #1C1A1E;
+  background-color: #121212;
+  background-color: var(--txt-color-dark);
   text-align: center;
   align-items: center;
   display: grid;
