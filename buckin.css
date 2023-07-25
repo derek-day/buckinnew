@@ -1471,7 +1471,7 @@ span {
 }
 
 .about-img {
-  background-image: url('mariah.jpeg');
+  background-image: url('mariah2.jpeg');
   background-attachment: scroll;
   background-position: right;
   background-repeat: no-repeat;
@@ -1481,6 +1481,8 @@ span {
   display: block;
   width: 50%;
   float: left;
+  z-index: 2;
+  position: relative;
 }
 
 .about-bull {
