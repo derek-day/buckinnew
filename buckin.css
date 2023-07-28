@@ -2000,7 +2000,7 @@ footer {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 1% 2%;
+  padding: 0% 2%;
 }
 
 .footer-logo {
