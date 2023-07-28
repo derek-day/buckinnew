@@ -224,9 +224,10 @@ h1 {
 }
 
 h2 {
-  /* font-family: "RecoletaAlt-Black";
-  font-weight: 800; */
-  font-family: "Korolev Heavy";
+  font-family: "RecoletaAlt-Black";
+  font-family: "Recoleta-Black";
+  font-weight: 800;
+  /* font-family: "Korolev Heavy"; */
 
   font-size: 85px !important;
 
@@ -251,7 +252,7 @@ h4 {
 h3,
 h4 {
   font-family: "Recoleta-Bold";
-  font-family: "Korolev-Condensed";
+  /* font-family: "Korolev-Condensed"; */
   /* font-family: "proxima-nova"; */
 
   font-weight: 600;
@@ -291,7 +292,7 @@ nav a {
   /* font-family: 'Korolev Bold'; */
   font-family: 'Korolev Heavy';
   font-family: 'Korolev-Condensed';
-  /* font-family: "Recoleta-Black"; */
+  font-family: "Recoleta-Bold";
   font-weight: 700;
   font-style: normal;
   font-size: var(--font-size-4) !important;
@@ -303,11 +304,11 @@ nav a {
 
 p,
 textarea {
-  /* font-family: "RecoletaAlt-Regular"; */
-  font-family: "Primana Thin";
+  font-family: "RecoletaAlt-Regular";
+  /* font-family: "Primana Thin"; */
   /* font-family: "Korolev-Condensed"; */
   /* font-family: "proxima-nova"; */
-  /* font-weight: 600; */
+  font-weight: 600;
   /* font-family: "diazo-mvb-ex-cond"; */
   font-size: var(--font-size-2) !important;
   /* font-weight: 500; */
@@ -870,7 +871,9 @@ nav li:nth-child(3) a:before {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3em;
+    /* gap: 3em; */
+    grid-row-gap: 6em;
+    grid-column-gap: 2em;
   }
 
   .store-card p {
@@ -1121,7 +1124,7 @@ section {
 .bullgaprev {
   overflow: hidden;
   position: relative;
-  float: right;
+  /* float: right; */
   /* margin-top: 2em;
   margin-bottom: 2em;  */
 }
@@ -1781,7 +1784,7 @@ opacity: 0.825;
   z-index: -1;
   background: var(--txt-color-dark);
   mix-blend-mode: hard-light;
-  opacity: 0.625;
+  opacity: 0.67;
 }
 
 #store h2 {
@@ -1792,13 +1795,14 @@ opacity: 0.825;
 }
 
 #store img {
-  width: 70%;
+  width: 80%;
 }
 
 .store-grid {
   justify-content: center;
   text-align: center;
   text-align: -webkit-center;
+  padding-top: 2rem;
 }
 
 /* .store-grid h3 {
@@ -1845,15 +1849,15 @@ opacity: 0.825;
   width: 55%;
   height: auto;
   display: inline;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   border-radius: 10%;
   /* background-color: var(--background); */
 }
 
 .store-card {
   padding: 5%;
-  width: 70%;
+  width: 85%;
   background-image: var(--backgroundimage);
   height: fit-content;
   justify-self: center;
