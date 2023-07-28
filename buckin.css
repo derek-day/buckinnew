@@ -816,12 +816,12 @@ nav li:nth-child(3) a:before {
   }
 
   .home-txt {
-    padding: 5% 0% 12% 25%;
+    padding: 8% 0% 12% 28%;
     max-width: 750px;
   }
 
   .home-txt2 {
-    padding: 10% 0% 12% 25%;
+    padding: 12% 0% 12% 28%;
     max-width: 750px;
   }
 
@@ -1816,8 +1816,8 @@ opacity: 0.825;
 } */
 
 .store-grid h4 {
-  font-size: 2.8rem !important;
-  padding-bottom: 1rem;
+  /* font-size: 2.8rem !important; */
+  padding-bottom: 0.5rem;
 }
 
 .store-grid h3 {
@@ -1940,14 +1940,13 @@ footer {
   position: relative;
   z-index: 999;
   width: 100%;
-  background-color: #1C1A1E;
-  background-color: #121212;
-  background-color: var(--txt-color-dark);
+  /* background-color: #20140b; */
+  background-image: url("noise.png"),linear-gradient(#20140b, #20140b);
   text-align: center;
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 0 2%;
+  padding: 1% 2%;
 }
 
 .footer-logo {
