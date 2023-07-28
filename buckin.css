@@ -1796,6 +1796,8 @@ opacity: 0.825;
 
 #store img {
   width: 80%;
+  position: relative;
+  z-index: 2;
 }
 
 .store-grid {
@@ -1822,6 +1824,8 @@ opacity: 0.825;
 .store-grid h4 {
   /* font-size: 2.8rem !important; */
   padding-bottom: 0.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .store-grid h3 {
@@ -1831,6 +1835,8 @@ opacity: 0.825;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  z-index: 2;
 }
 
 .store-grid p {
@@ -1843,6 +1849,8 @@ opacity: 0.825;
   margin-right: auto;
   padding-bottom: 0.5rem;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .store-grid img {
@@ -1858,17 +1866,33 @@ opacity: 0.825;
 .store-card {
   padding: 5%;
   width: 85%;
-  background-image: var(--backgroundimage);
+  /* background-image: var(--backgroundimage); */
   height: fit-content;
   justify-self: center;
   transition: background-color 0.75s ease-in-out;
-  border-radius: 2rem;
-  border: 1.5px solid var(--txt-color-dark);
+  /* border-radius: 2rem; */
+  /* border: 1.5px solid var(--txt-color-dark); */
 }
 
 .store-card:nth-child(3) {
   border: none;
   background-image: none;
+}
+
+.store-back2 {
+  position:relative;
+}
+
+.store-back2::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  padding: 5%;
+  background: var(--txt-color-dark);
+  mix-blend-mode: hard-light;
+  /* opacity: 0.67; */
+  border-radius: 2rem;
 }
 
 .tumbler-slide {
