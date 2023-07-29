@@ -139,7 +139,9 @@
   /* --background: #F7F4DE; */
   --orange: #ff9e3a;
 
-  --backgroundimage: url("noise.png"),linear-gradient(#feecd3,#feecd3);
+  --backgroundimage: url("noise.png"),linear-gradient(#ffecd2,#ffecd2);
+  --backgroundimage: url("noise.png"),linear-gradient(#ffecd2,#ffeacc);
+
   /* --backgroundimage: url("noise.png"),linear-gradient(#F4C46F, #F4C46F); */
   /* --backgroundimage: url("noise.png"),linear-gradient(#F7F4DE,#F7F4DE); */
   --backgroundimage2: url("noise.png"),linear-gradient(#28190E,#28190E);
@@ -194,6 +196,7 @@ body {
     line-height: 0.5;
     background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
     background-image: url("noise.png"),linear-gradient(#feecd3,#feecd3);
+    background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,#fff5e5 80%);
     background-image: var(--backgroundimage);
 
     background-position: 0 0,0 0;
@@ -1559,6 +1562,8 @@ opacity: 0.825;
 
 .drink-grid h4 {
   font-size: 2.8rem !important;
+  font-size: 3rem !important;
+  line-height: 3.8rem !important;
   padding-bottom: 1rem;
   position: relative;
   z-index: 2;
@@ -1577,6 +1582,7 @@ opacity: 0.825;
 
 .drink-grid p {
   font-size: 1.8rem !important;
+  font-size: 2rem !important;
   line-height: 3rem !important;
   text-wrap: balance;
   /* width: 50%; */
@@ -1593,7 +1599,7 @@ opacity: 0.825;
   height: auto;
   display: inline;
   padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   transition: scale 1.5s ease-in-out;
   position: relative;
   z-index: 2;
@@ -1634,6 +1640,8 @@ opacity: 0.825;
 
 .cooler-card h4 {
   font-size: 2.8rem !important;
+  font-size: 3rem !important;
+  line-height: 3.4rem !important;
   padding-bottom: 1rem;
   position: relative;
   z-index: 2;
@@ -1652,6 +1660,7 @@ opacity: 0.825;
 
 .cooler-grid p {
   font-size: 1.8rem !important;
+  font-size: 2rem !important;
   line-height: 3rem !important;
   text-wrap: balance;
   /* width: 50%; */
@@ -1668,7 +1677,7 @@ opacity: 0.825;
   height: auto;
   display: inline;
   padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   position: relative;
   z-index: 2;
 }
@@ -1852,7 +1861,7 @@ opacity: 0.825;
 .store-grid h3 {
   font-size: 3rem !important;
   line-height: 4rem !important;
-  padding: 0.2em 0 0.2em;
+  padding: 0 0 0.5rem;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -1862,6 +1871,7 @@ opacity: 0.825;
 
 .store-grid p {
   font-size: 1.8rem !important;
+  font-size: 2rem !important;
   line-height: 3rem !important;
   text-wrap: balance;
   /* width: 50%; */
@@ -1869,7 +1879,7 @@ opacity: 0.825;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 3rem;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   text-align: center;
   position: relative;
   z-index: 2;
@@ -1910,11 +1920,21 @@ opacity: 0.825;
   position: absolute;
   inset: 0;
   z-index: 1;
-  background-image: var(--backgroundimage);
-  background-image: url("noise.png"),linear-gradient(#fdf4e5,#fdf4e5);
-  background-image: url("noise.png"),linear-gradient(var(--txt-color-dark) 30%,#fdf4e5 80%);
-  background-image: url("noise.png"),linear-gradient(var(--background) 30%,#fdf4e5 80%);
-  background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,var(--background) 80%);
+  background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,#fde4c0  80%);
+  background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,#fde1ba  80%);
+  mix-blend-mode: multiply;
+  border-radius: 2rem;
+}
+
+.cardback2 {
+  position: relative;
+}
+
+.cardback2::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
   background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,#fff5e5 80%);
   mix-blend-mode: hard-light;
   border-radius: 2rem;
