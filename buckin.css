@@ -1937,6 +1937,7 @@ opacity: 0.825;
   inset: 0;
   z-index: 1;
   background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,#fff5e5 80%);
+  
   mix-blend-mode: hard-light;
   border-radius: 2rem;
 }
