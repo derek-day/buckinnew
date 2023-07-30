@@ -671,11 +671,33 @@ nav li:nth-child(3) a:before {
   display: none !important;
 }
 
+#menu h2 {
+  font-size: 20rem;
+}
+
 @media screen and (max-width: 949px) {
-  h2 {
-    font-size: 5rem !important;
-    line-height: 6rem !important;
-    padding-bottom: 1rem !important;
+  #header {
+    padding: 1rem 0 1rem;
+  }
+
+  .mobile-logo {
+    width: 8rem;
+  }
+
+  .navi-list li {
+    padding: 1rem 0 2rem !important;
+  }
+
+  .navi-list li:nth-child(1) {
+    padding: 3rem 0 2rem !important;
+  }
+
+  .navi-list li:nth-child(4) {
+    padding: 1rem 0 3rem !important;
+  }
+
+  .centered-logo {
+    display: none;
   }
 
   .home-txt {
@@ -706,6 +728,12 @@ nav li:nth-child(3) a:before {
     padding: 0 0 4rem;
   }
 
+  .about-txt h2 {
+    font-size: 5rem !important;
+    line-height: 6rem !important;
+    padding-bottom: 1rem !important;
+  }
+
   .about-img {
     width: 100% !important;
     float: none !important;
@@ -713,7 +741,11 @@ nav li:nth-child(3) a:before {
     min-height: 400px !important;
   }
 
-  .menu h2 {
+  #menu {
+    margin-top: 0 !important;
+  }
+
+  #menu h2 {
     font-size: 10rem !important;
   }
 
@@ -732,6 +764,17 @@ nav li:nth-child(3) a:before {
   .social-img {
     width: 100% !important;
     float: none !important;
+    min-height: 300px !important;
+    margin-top: 0 !important;
+  }
+
+  footer {
+    grid: none !important;
+  }
+
+  .footer-links {
+    display: inline-grid !important;
+    justify-content: center !important;
   }
 }
 
