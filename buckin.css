@@ -1,66 +1,66 @@
 @font-face {
   font-family: "Recoleta-Black";
-  src: url('Recoleta-Black.ttf') format("truetype");
+  src: url('assets/fonts/Recoleta-Black.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "Recoleta-Regular";
-  src: url('Recoleta-Regular.ttf') format("truetype");
+  src: url('assets/fonts/Recoleta-Regular.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "Recoleta-Medium";
-  src: url('Recoleta-Medium.ttf') format("truetype");
+  src: url('assets/fonts/Recoleta-Medium.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "Recoleta-SemiBold";
-  src: url('Recoleta-SemiBold.ttf') format("truetype");
+  src: url('assets/fonts/Recoleta-SemiBold.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "Recoleta-Bold";
-  src: url('Recoleta-Bold.ttf') format("truetype");
+  src: url('assets/fonts/Recoleta-Bold.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "RecoletaAlt-Black";
-  src: url('RecoletaAlt-Black.ttf') format("truetype");
+  src: url('assets/fonts/RecoletaAlt-Black.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "RecoletaAlt-Regular";
-  src: url('RecoletaAlt-Regular.ttf') format("truetype");
+  src: url('assets/fonts/RecoletaAlt-Regular.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "RecoletaAlt-Medium";
-  src: url('RecoletaAlt-Medium.ttf') format("truetype");
+  src: url('assets/fonts/RecoletaAlt-Medium.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "RecoletaAlt-SemiBold";
-  src: url('RecoletaAlt-SemiBold.ttf') format("truetype");
+  src: url('assets/fonts/RecoletaAlt-SemiBold.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "RecoletaAlt-Bold";
-  src: url('RecoletaAlt-Bold.ttf') format("truetype");
+  src: url('assets/fonts/RecoletaAlt-Bold.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "Korolev Heavy";
-  src: url('Korolev Heavy.ttf') format("truetype");
+  src: url('assets/fonts/Korolev Heavy.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "Korolev Medium";
-  src: url('Korolev Medium.ttf') format("truetype");
+  src: url('assets/fonts/Korolev Medium.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "Korolev Bold";
-  src: url('Korolev Bold.ttf') format("truetype");
+  src: url('assets/fonts/Korolev Bold.ttf') format("truetype");
 }
 
 :root {
