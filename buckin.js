@@ -44,7 +44,6 @@ function inter(){
     $('.inter-back1').each(function() { 
         var $element = $(this);
         // subtract some from the height b/c of the padding
-        // var height = $element.height()-18;
         var height = $element.height()*2.25;
         $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
     }); 
@@ -55,7 +54,6 @@ function intermobile(){
   $('.inter-back-mob').each(function() { 
       var $element = $(this);
       // subtract some from the height b/c of the padding
-      // var height = $element.height()-18;
       var height = $element.height()*3.5;
       $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
   }); 
@@ -66,7 +64,6 @@ function inter2(){
   $('.inter-back2').each(function() { 
       var $element = $(this);
       // subtract some from the height b/c of the padding
-      // var height = $element.height()-18;
       var height = $element.height()*3;
       $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
   }); 
@@ -77,7 +74,6 @@ function inter3(){
   $('.inter-back3').each(function() { 
       var $element = $(this);
       // subtract some from the height b/c of the padding
-      // var height = $element.height()-18;
       var height = $element.height()*1.75;
       $(this).css('backgroundPosition', '50% ' + Math.round((height + pos) * velocity) + 'px'); 
   }); 
@@ -88,7 +84,6 @@ function menuback(){
   $('.menu-back').each(function() { 
       var $element = $(this);
       // subtract some from the height b/c of the padding
-      // var height = $element.height()-18;
       var height = $element.height();
       $(this).css('backgroundPosition', '50% ' + Math.round((height + pos) * velocity) + 'px'); 
   }); 
@@ -174,43 +169,3 @@ coolerPrevSlide.addEventListener("click", function () {
     coolerSlide.style.transform = `translateX(${100 * (coolerIndx - coolerCurSlide)}%)`;
   });
 });
-
-
-
-// Tumbler slides
-// const tumblerSlides = document.querySelectorAll(".tumbler-slide");
-
-// tumblerSlides.forEach((tumblerSlide, tumblerIndx) => {
-//   tumblerSlide.style.transform = `translateX(${tumblerIndx * 100}%)`;
-// });
-
-// const tumblerNextSlide = document.querySelector(".tumbler-btn-next");
-
-// let tumblerCurSlide = 0;
-// let tumblerMaxSlide = tumblerSlides.length - 1;
-
-// tumblerNextSlide.addEventListener("click", function () {
-//   if (tumblerCurSlide === tumblerMaxSlide) {
-//     tumblerCurSlide = 0;
-//   } else {
-//     tumblerCurSlide++;
-//   }
-//   tumblerSlides.forEach((tumblerSlide, tumblerIndx) => {
-//     tumblerSlide.style.transform = `translateX(${100 * (tumblerIndx - tumblerCurSlide)}%)`;
-//   });
-// });
-
-// const tumblerPrevSlide = document.querySelector(".tumbler-btn-prev");
-
-// tumblerPrevSlide.addEventListener("click", function () {
-//   if (tumblerCurSlide === 0) {
-//     tumblerCurSlide = tumblerMaxSlide;
-//   } else {
-//     tumblerCurSlide--;
-//   }
-
-//   tumblerSlides.forEach((tumblerSlide, tumblerIndx) => {
-//     tumblerSlide.style.transform = `translateX(${100 * (tumblerIndx - tumblerCurSlide)}%)`;
-//   });
-// });
-

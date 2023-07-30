@@ -1,52 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
-
-
-@font-face {
-  font-family: "OPTIRodeo";
-  src: url('OPTIRodeo.otf') format("opentype");
-}
-
-@font-face {
-  font-family: "Zuume Regular";
-  src: url('Zuume Regular.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "Zuume Medium";
-  src: url('Zuume Medium.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "Cabin";
-  src: url('Cabin.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "Archivo Black";
-  src: url('ArchivoBlack.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "Archivo";
-  src: url('Archivo.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "Fjalla";
-  src: url('Fjalla.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url('Inter.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "Rokkitt";
-  src: url('Rokkitt.ttf') format("truetype");
-}
-
 @font-face {
   font-family: "Recoleta-Black";
   src: url('Recoleta-Black.ttf') format("truetype");
@@ -98,11 +49,6 @@
 }
 
 @font-face {
-  font-family: "Primana";
-  src: url('Primana.ttf') format("truetype");
-}
-
-@font-face {
   font-family: "Korolev Heavy";
   src: url('Korolev Heavy.ttf') format("truetype");
 }
@@ -117,34 +63,17 @@
   src: url('Korolev Bold.ttf') format("truetype");
 }
 
-@font-face {
-  font-family: "Primana Thin";
-  src: url('Primana Thin.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: "Facultad";
-  src: url('Facultad.otf') format("opentype");
-}
-
 :root {
-  /* --txt-color-dark: #1d171f; */
-  /* --txt-color-dark: #0b090c; */
-  /* --txt-color-dark: #1e140d; */
   --txt-color-dark: #28190E; 
-  /* --txt-color-dark: #522D23; */
   --background: #fdf5e6;
   --background: #feecd3;
   --background2: #F4C46F;
-  /* --background: #F7F4DE; */
   --orange: #ff9e3a;
 
-  --backgroundimage: url("noise.png"),linear-gradient(#ffecd2,#ffecd2);
-  --backgroundimage: url("noise.png"),linear-gradient(#ffecd2,#ffeacc);
+  --backgroundimage: url("assets/images/noise.webp"),linear-gradient(#ffecd2,#ffecd2);
+  --backgroundimage: url("assets/images/noise.webp"),linear-gradient(#ffecd2,#ffeacc);
 
-  /* --backgroundimage: url("noise.png"),linear-gradient(#F4C46F, #F4C46F); */
-  /* --backgroundimage: url("noise.png"),linear-gradient(#F7F4DE,#F7F4DE); */
-  --backgroundimage2: url("noise.png"),linear-gradient(#28190E,#28190E);
+  --backgroundimage2: url("assets/images/noise.webp"),linear-gradient(#28190E,#28190E);
 
 
   /* --font-size-1: 0.8rem; */
@@ -194,9 +123,9 @@ body {
     font-family: system-ui;
     font-size: 1.125rem;
     line-height: 0.5;
-    background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7);
-    background-image: url("noise.png"),linear-gradient(#feecd3,#feecd3);
-    background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,#fff5e5 80%);
+    background-image: url("assets/images/noise.webp"),linear-gradient(#faebd7,#faebd7);
+    background-image: url("assets/images/noise.webp"),linear-gradient(#feecd3,#feecd3);
+    background-image: url("assets/images/noise.webp"),linear-gradient(#fdf4e5 30%,#fff5e5 80%);
     background-image: var(--backgroundimage);
 
     background-position: 0 0,0 0;
@@ -704,6 +633,11 @@ nav li:nth-child(3) a:before {
     text-align: center;
   }
 
+  .home-img {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+
   .home-img1 {
     display: none !important;
   }
@@ -1174,8 +1108,8 @@ section {
 }
 
 #home1 {
-  background: url('pa.jpg');
-  background-image:  url('pa.jpg');
+  background: url('assets/images/pa.jpg');
+  background-image:  url('assets/images/pa.jpg');
   /* background-image: url(bulldark.png); */
   /* aspect-ratio: 16/9; */
   /* background-size: cover; */
@@ -1203,8 +1137,8 @@ section {
 }
 
 #home2 {
-  background: url('co.jpg');
-  background-image:  url('co.jpg');
+  background: url('assets/images/co.jpg');
+  background-image:  url('assets/images/co.jpg');
 
   /* background: url('pa.jpg');
   background-image:  url('pa.jpg'); */
@@ -1596,7 +1530,7 @@ span {
 }
 
 .about-img {
-  background-image: url('mariah2.jpeg');
+  background-image: url('assets/images/mariah2.webp');
   background-attachment: scroll;
   background-position: right;
   background-repeat: no-repeat;
@@ -2036,8 +1970,8 @@ opacity: 0.825;
   position: absolute;
   inset: 0;
   z-index: 1;
-  background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,#fde4c0  80%);
-  background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,#fde1ba  80%);
+  background-image: url("assets/images/noise.webp"),linear-gradient(#fdf4e5 30%,#fde4c0  80%);
+  background-image: url("assets/images/noise.webp"),linear-gradient(#fdf4e5 30%,#fde1ba  80%);
   mix-blend-mode: multiply;
   border-radius: 2rem;
 }
@@ -2051,7 +1985,7 @@ opacity: 0.825;
   position: absolute;
   inset: 0;
   z-index: 1;
-  background-image: url("noise.png"),linear-gradient(#fdf4e5 30%,#fff5e5 80%);
+  background-image: url("assets/images/noise.webp"),linear-gradient(#fdf4e5 30%,#fff5e5 80%);
   
   mix-blend-mode: hard-light;
   border-radius: 2rem;
@@ -2141,7 +2075,7 @@ footer {
   z-index: 999;
   width: 100%;
   /* background-color: #20140b; */
-  background-image: url("noise.png"),linear-gradient(#1a1009, #1a1009);
+  background-image: url("assets/images/noise.webp"),linear-gradient(#1a1009, #1a1009);
   text-align: center;
   align-items: center;
   display: grid;
@@ -2394,7 +2328,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .social-img {
-  background-image: url('tape5.png');
+  background-image: url('assets/images/tape5.webp');
   background-attachment: scroll;
   background-position: right;
   background-repeat: no-repeat;
