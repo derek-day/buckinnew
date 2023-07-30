@@ -667,7 +667,29 @@ nav li:nth-child(3) a:before {
   margin: 5px 8px 5px;
 }
 
+.home-img2 {
+  display: none !important;
+}
+
 @media screen and (max-width: 949px) {
+  h2 {
+    font-size: 5rem !important;
+    line-height: 6rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .home-txt {
+    text-align: center;
+  }
+
+  .home-img1 {
+    display: none !important;
+  }
+
+  .home-img2 {
+    display: block !important;
+  }
+
   .home-left {
     width: 100% !important;
     float: none !important;
@@ -681,11 +703,30 @@ nav li:nth-child(3) a:before {
   .about-right {
     width: 100% !important;
     float: none !important;
+    padding: 0 0 4rem;
   }
 
   .about-img {
     width: 100% !important;
     float: none !important;
+    background-position: center !important;
+    min-height: 400px !important;
+  }
+
+  .menu h2 {
+    font-size: 10rem !important;
+  }
+
+  .menu h4 {
+    font-size: 2.4rem !important;
+  }
+
+  .store-header h2 {
+    font-size: 10rem !important;
+  }
+
+  .store-header h4 {
+    font-size: 2.4rem !important;
   }
 
   .social-img {
@@ -694,7 +735,11 @@ nav li:nth-child(3) a:before {
   }
 }
 
-@media screen and (max-width: 1544px) {
+@media screen and (min-width: 1544px) {
+
+  .newhome {
+    height: 82.5dvh;
+  }
 
   .about-txt {
     /* transform: translateY(50px); */
