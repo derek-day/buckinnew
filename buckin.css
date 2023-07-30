@@ -223,6 +223,7 @@ p {
 h1 {
   /* font-size: var(--font-size-6) !important; */
   font-size: 6.5rem !important;
+  font-size: 8rem !important;
   line-height: 100px !important;
   font-family: "Recoleta-Black" !important;
   /* color: var(--background2) !important; */
