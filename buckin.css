@@ -153,7 +153,7 @@ h1 {
   /* font-size: var(--font-size-6) !important; */
   /* font-size: 6.5rem !important;
   font-size: 8rem !important; */
-  line-height: 100px !important;
+  /* line-height: 100px !important; */
   font-family: "Recoleta-Black" !important;
   /* color: var(--background2) !important; */
 }
@@ -630,9 +630,29 @@ nav li:nth-child(3) a:before {
   font-size: var(--font-size-7) !important;
 }
 
+.outline {
+  color: white;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 3px var(--background);
+}
+
+.container .outline {
+  -webkit-text-stroke: 3px white;
+}
+
 @media screen and (max-width: 949px) {
   #header {
     padding: 1rem 0 1rem;
+  }
+
+  .outline {
+    color: var(--background);
+    -webkit-text-stroke: 0;
+  }  
+
+  .container .outline {
+    color: white;
+    -webkit-text-stroke: 0;
   }
 
   .mobile-logo {
@@ -666,7 +686,13 @@ nav li:nth-child(3) a:before {
   }
 
   .introtext {
-    font-size: 5rem !important;
+    font-size: 4.5rem !important;
+    line-height: 50px !important;
+  }
+
+  .home-txt h3 {
+    font-size: 2.2rem !important;
+    line-height: 2.7rem !important;
   }
 
   .newhome {
@@ -694,7 +720,7 @@ nav li:nth-child(3) a:before {
   .home-img {
     width: 100% !important;
     float: none !important;
-    min-height: 350px !important;
+    min-height: 250px !important;
   }
 
   .about-right {
@@ -734,6 +760,7 @@ nav li:nth-child(3) a:before {
 
   .store-header h2 {
     font-size: 10rem !important;
+    margin-left: -2.5rem;
   }
 
   .store-header h4 {
@@ -775,8 +802,12 @@ nav li:nth-child(3) a:before {
     display: none !important;
   }
 
+  .centered {
+    margin-top: 7rem;
+  }
+
   .centered h1 {
-    font-size: 8rem !important;
+    font-size: 6.5rem !important;
   }  
 
   .centered img {
