@@ -675,6 +675,10 @@ nav li:nth-child(3) a:before {
     display: none;
   }
 
+  .home1 {
+    background-image: url(assets/images/seeyoumob.webp) !important;
+  }
+
   .home-txt {
     text-align: center;
     float: none !important;
