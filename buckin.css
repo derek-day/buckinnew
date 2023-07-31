@@ -618,6 +618,14 @@ nav li:nth-child(3) a:before {
   font-size: var(--font-size-7) !important;
 }
 
+/* .slider-desk {
+  display: block;
+}
+
+.slider-mob {
+  display: none;
+} */
+
 .cooler-overlay h3 {
   font-size: var(--font-size-7) !important;
 }
@@ -739,6 +747,14 @@ nav li:nth-child(3) a:before {
   .drink-overlay h3 {
     font-size: 5rem !important;
   }
+
+  /* .slider-desk {
+    display: none;
+  }
+  
+  .slider-mob {
+    display: block;
+  }   */
 
   .cooler-overlay h3 {
     font-size: 5rem !important;
