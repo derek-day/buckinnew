@@ -631,6 +631,16 @@ nav li:nth-child(3) a:before {
 
   .home-txt {
     text-align: center;
+    float: none !important;
+  }
+
+  .home-txt::after {
+    width: 100% !important;
+    opacity: 0.6 !important;
+  }
+
+  .introtext {
+    font-size: 5rem !important;
   }
 
   .home-img {
