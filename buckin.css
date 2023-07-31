@@ -130,7 +130,7 @@ body {
 
     background-position: 0 0,0 0;
     background-size: auto, auto;
-    width: 100dvw;
+    width: 100%;
 }
 
 .preload * {
@@ -151,8 +151,8 @@ p {
 
 h1 {
   /* font-size: var(--font-size-6) !important; */
-  font-size: 6.5rem !important;
-  font-size: 8rem !important;
+  /* font-size: 6.5rem !important;
+  font-size: 8rem !important; */
   line-height: 100px !important;
   font-family: "Recoleta-Black" !important;
   /* color: var(--background2) !important; */
@@ -222,6 +222,7 @@ button,
   /* font-family: "Primana"; */
   font-family: "Korolev-Condensed" !important;
   font-family: "Recoleta-Bold" !important;
+  font-family: "Recoleta-Black" !important;
   font-weight: 700 !important;
   font-size: var(--font-size-4) !important;
   /* font-family: "proxima-nova"; */
@@ -493,9 +494,6 @@ nav {
   /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
   /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);     */
   background-image: var(--backgroundimage);
-
-
-  
 }
   
 nav ul {
@@ -600,8 +598,28 @@ nav li:nth-child(3) a:before {
   display: none !important;
 }
 
+.social-img1 {
+  display: block !important;
+}
+
+.social-img2 {
+  display: none !important;
+}
+
 #menu h2 {
-  font-size: 20rem;
+  font-size: 20rem !important;
+}
+
+.store-header h2 { 
+  font-size: 20rem !important;
+}
+
+.drink-overlay h3 {
+  font-size: var(--font-size-7) !important;
+}
+
+.cooler-overlay h3 {
+  font-size: var(--font-size-7) !important;
 }
 
 @media screen and (max-width: 949px) {
@@ -643,6 +661,10 @@ nav li:nth-child(3) a:before {
     font-size: 5rem !important;
   }
 
+  .newhome {
+    padding: 6rem 5% 0;
+  }
+
   .home-img {
     animation: none !important;
     opacity: 1 !important;
@@ -664,6 +686,7 @@ nav li:nth-child(3) a:before {
   .home-img {
     width: 100% !important;
     float: none !important;
+    min-height: 350px !important;
   }
 
   .about-right {
@@ -683,6 +706,10 @@ nav li:nth-child(3) a:before {
     float: none !important;
     background-position: center !important;
     min-height: 400px !important;
+  }
+
+  .menu-back {
+    padding: 0 5%;
   }
 
   #menu {
@@ -705,6 +732,18 @@ nav li:nth-child(3) a:before {
     font-size: 2.4rem !important;
   }
 
+  .store-card {
+    margin-top: 4rem;
+  }
+
+  .drink-overlay h3 {
+    font-size: 5rem !important;
+  }
+
+  .cooler-overlay h3 {
+    font-size: 5rem !important;
+  }
+
   .social-img {
     width: 100% !important;
     float: none !important;
@@ -712,13 +751,58 @@ nav li:nth-child(3) a:before {
     margin-top: 0 !important;
   }
 
+  .social-img1 {
+    display: block !important;
+  }
+
+  .social-img2 {
+    display: none !important;
+  }
+
+  .centered h1 {
+    font-size: 8rem !important;
+  }  
+
+  .centered img {
+    width: 40dvw !important;
+  }
+
   footer {
     grid: none !important;
+  }
+
+  .footer-logo {
+    justify-self: center;
+    padding-top: 2rem !important;
+    width: 30dvw !important;
+    margin: 0 !important;
   }
 
   .footer-links {
     display: inline-grid !important;
     justify-content: center !important;
+    padding-top: 4rem;
+  }
+
+  .footer-links a {
+    font-size: 2.8rem !important;
+    padding-top: 3rem !important;
+  }
+
+  .footer-links a:nth-of-type(4) {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .footer-social {
+    justify-content: center !important;
+    margin-right: 0 !important;
+  }
+
+  .footer-social img {
+    width: 20dvw !important;
+    /* padding: 2rem 1.2rem !important; */
+    margin: 1rem 1.2rem 8rem !important;
   }
 }
 
@@ -731,6 +815,24 @@ nav li:nth-child(3) a:before {
   .about-txt {
     /* transform: translateY(50px); */
     /* transform: translateY(10px); */
+  }
+
+  .store-grid p {
+    font-size: 1.8rem !important;
+  }  
+
+  .home-txt {
+    margin: 18% 10% 15% 14% !important;
+    max-width: 750px;
+  }
+
+  .home-txt2 {
+    margin: 18% 10% 15% 14% !important;
+    max-width: 750px;
+  }
+
+  .introtext {
+    font-size: 8rem !important;
   }
 
 }
@@ -870,6 +972,14 @@ nav li:nth-child(3) a:before {
     line-height: 1;
   }    
 
+  .home1 {
+    width: 90% !important;
+  }
+
+  .home2 {
+    width: 90% !important;
+  }
+
   .home1 .home-img {
     margin-top: -4%;
   }
@@ -891,15 +1001,17 @@ nav li:nth-child(3) a:before {
   }
 
   .home-txt {
-    padding: 8% 0% 12% 28%;
-    padding: 10% 0% 12% 12%;
+    margin: 15% 10% 15% 10%;
     max-width: 750px;
   }
 
   .home-txt2 {
-    padding: 12% 0% 12% 28%;
-    padding: 14% 0% 12% 12%;
+    margin: 15% 10% 15% 10%;
     max-width: 750px;
+  }
+
+  .introtext {
+    font-size: 6.5rem;
   }
 
   .about-txt {
@@ -913,6 +1025,12 @@ nav li:nth-child(3) a:before {
 
   .about-txt h2, p {
     text-align: left;
+  }
+
+  .menu-back {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .drink-grid {
@@ -1063,6 +1181,14 @@ nav li:nth-child(3) a:before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+  font-size: 10rem;
+}
+
+.centered img {
+  width: 20dvw;
 }
 
 .centered h1:nth-child(1) {
@@ -1237,7 +1363,7 @@ section {
 .introtext {
   /* font-family: 'korolev heavy'; */
   font-weight: 600;
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
   text-align: center;
   font-kerning: normal;
   line-height: 3rem;
@@ -1265,6 +1391,7 @@ section {
   transition: background-color 1s;
   /* padding: 8px 15px; use this for smaller screens. for some reason bigger screen needs more top padding */
   padding: 12px 15px 8px;
+  padding: 8px 15px;
   border-radius: 0.5rem;
 }
 
@@ -1279,6 +1406,7 @@ section {
   display: inline-block;
   /* padding: 15px 20px; */
   padding: 18px 20px 14px;
+  padding: 15px 20px;
   background-color: var(--orange);
   color: var(--txt-color-dark);
   /* color: var(--background); */
@@ -1291,7 +1419,7 @@ section {
   transition: background-color 1s;
   text-decoration: none;
   /* margin: 0.5em 0.25em 0 0.25em; */
-  margin-top: 12px;
+  margin-top: 1rem;
   border-radius: 1rem;
 }
 
@@ -1930,8 +2058,8 @@ opacity: 0.825;
 }
 
 .store-grid p {
-  font-size: 1.8rem !important;
-  font-size: 2rem !important;
+  /* font-size: 1.8rem !important;
+  font-size: 2rem !important; */
   line-height: 3rem !important;
   text-wrap: balance;
   /* width: 50%; */
@@ -2185,8 +2313,7 @@ footer img {
   display: block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 0.75rem;
-  /* font-size: 1rem; */
+  padding: 0.5rem 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: var(--txt-color-dark);
@@ -2195,8 +2322,7 @@ footer img {
   background-clip: padding-box;
   /* border: 1px solid #ced4da; */
   border: 2px solid #2c2c2c;
-  /* font-family: "Primana Thin"; */
-  font-family: "proxima-nova";
+  font-family: "Recoleta-Medium";
   outline: none;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
