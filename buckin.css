@@ -789,10 +789,10 @@ nav li:nth-child(3) a:before {
 
   .footer-logo {
     justify-self: center;
-    padding-top: 2rem !important;
+    padding: 2rem 0 0 !important;
     width: 30dvw !important;
     margin: 0 !important;
-  }
+  }  
 
   .footer-links {
     display: inline-grid !important;
@@ -2238,15 +2238,13 @@ footer {
 }
 
 .footer-logo {
-  padding: 0px;
-  margin-left: 4em;
+  padding: 0px 1rem 1.2rem;
+  margin-left: 3em;
 }
 
 footer img {
   width: 80px;
   height: auto;
-  /* padding: 7px; */
-  padding: 0px 7px 7px;
 }
 
 .footer-link {
