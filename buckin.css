@@ -188,7 +188,7 @@ h4 {
 h3,
 h4 {
   font-family: "Recoleta-SemiBold";
-  font-family: "Recoleta-Medium";
+  /* font-family: "Recoleta-Medium"; */
   /* font-family: "Korolev-Condensed"; */
   /* font-family: "proxima-nova"; */
 
@@ -636,8 +636,8 @@ nav li:nth-child(3) a:before {
 } 
 
 .home2 .home-img-mob{
-  scale: 0.90;
-  margin: -2rem 0 rem;
+  scale: 0.9;
+  margin: -2rem 0 -1rem;
 } 
 
 .home2 .home-img-desk{
@@ -691,6 +691,10 @@ nav li:nth-child(3) a:before {
     display: none;
   }
 
+  .home1 {
+    animation: returnToOrigin 0.5s ease-out forwards, scroll 150s linear infinite !important;
+  }
+
   .outline {
     color: var(--background);
     -webkit-text-stroke: 0;
@@ -722,7 +726,7 @@ nav li:nth-child(3) a:before {
   }
 
   .home1 {
-    background-image: url(assets/images/seeyoumob.webp) !important;
+    background-image: url(assets/images/bullbl4.webp) !important;
   }
 
   .home-txt {
@@ -822,6 +826,8 @@ nav li:nth-child(3) a:before {
 
   .store-card {
     margin-top: 4rem;
+    width: 100% !important;
+    padding: 3% !important;
   }
 
   .drink-overlay h3 {
@@ -857,6 +863,7 @@ nav li:nth-child(3) a:before {
 
   #contact {
     padding: 50px 5% 0px !important;
+    margin-bottom: -8rem !important;
   }  
 
   .centered {
@@ -906,7 +913,7 @@ nav li:nth-child(3) a:before {
   .footer-social img {
     width: 15dvw !important;
     /* padding: 2rem 1.2rem !important; */
-    margin: 0rem 1.2rem 8rem !important;
+    margin: 0rem 1.2rem 4rem !important;
     padding: 0 !important;
   }
 }
@@ -1515,6 +1522,7 @@ section {
   padding: 15px 20px;
   background-color: var(--orange);
   color: var(--txt-color-dark);
+  color: #0c0c0c;
   /* color: var(--background); */
   font-kerning: normal;
   letter-spacing: 0.3px;
