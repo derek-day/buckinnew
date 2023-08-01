@@ -906,6 +906,7 @@ nav li:nth-child(3) a:before {
   .cooler-card h4 {
     padding: 0.5rem 0 0.5rem !important;
     margin: 0 !important;
+    font-size: 2.4rem !important;
   }
 
   .cooler-card p {
@@ -2024,7 +2025,9 @@ opacity: 0.825;
   /* background-color: var(--background); */
 }
 
-.cooler-card h4 {
+
+.cooler-grid h4 {
+/* .cooler-card h4 { */
   font-size: 2.8rem !important;
   font-size: 3rem !important;
   line-height: 3.4rem !important;
