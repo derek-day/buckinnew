@@ -2138,7 +2138,7 @@ opacity: 0.825;
   cursor: pointer;
   /* background-color: #fff; */
   background-image: var(--backgroundimage);
-  /* font-size: 150% !important; */
+  font-size: 125% !important;
 }
 
 .slide-btn:active {
@@ -2148,13 +2148,11 @@ opacity: 0.825;
 .drink-btn-prev {
   top: 55%;
   left: 3%;
-  font-size: 100% !important;
 }
 
 .drink-btn-next {
   top: 55%;
   right: 3%;
-  font-size: 100% !important;
 }
 
 .drink-btn-prev:hover,
@@ -2172,13 +2170,11 @@ opacity: 0.825;
 .drink-btn-prev-mob {
   top: 50%;
   left: 0%;
-  font-size: 400% !important;
 }
 
 .drink-btn-next-mob {
   top: 50%;
   right: 0%;
-  font-size: 400% !important;
 }
 
 .drink-btn-prev-mob:hover,
