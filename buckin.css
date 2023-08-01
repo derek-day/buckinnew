@@ -2138,7 +2138,7 @@ opacity: 0.825;
   cursor: pointer;
   /* background-color: #fff; */
   background-image: var(--backgroundimage);
-  font-size: 100%;
+  font-size: 100% !important;
 }
 
 .slide-btn:active {
