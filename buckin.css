@@ -406,7 +406,8 @@ p {
    /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
    /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);     */
    /* background-image: url("noise.png"),linear-gradient(#faebd7,#faebd7); */
-   background-image: var(--backgroundimage);
+   /* background-image: var(--backgroundimage); */
+   background-color: var(--background);
 
 
    background-position: 0 0,0 0;
@@ -431,7 +432,8 @@ p {
   bottom:0;
   left:0;
   right:0;
-  background-image: var(--backgroundimage);
+  /* background-image: var(--backgroundimage); */
+  background: var(--background);
 
 
   line-height: 0.5 !important;
