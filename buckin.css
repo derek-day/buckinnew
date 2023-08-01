@@ -2172,13 +2172,13 @@ opacity: 0.825;
 .drink-btn-prev-mob {
   top: 50%;
   left: 0%;
-  font-size: 200% !important;
+  font-size: 400% !important;
 }
 
 .drink-btn-next-mob {
   top: 50%;
   right: 0%;
-  font-size: 200% !important;
+  font-size: 400% !important;
 }
 
 .drink-btn-prev-mob:hover,
