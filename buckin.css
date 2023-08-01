@@ -2169,12 +2169,12 @@ opacity: 0.825;
 
 .drink-btn-prev-mob {
   top: 50%;
-  left: 0.5%;
+  left: 1%;
 }
 
 .drink-btn-next-mob {
   top: 50%;
-  right: 0.5%;
+  right: 1%;
 }
 
 .drink-btn-prev-mob:hover,
