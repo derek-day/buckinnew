@@ -222,7 +222,7 @@ button,
   /* font-family: "Primana"; */
   font-family: "Korolev-Condensed" !important;
   font-family: "Recoleta-Bold" !important;
-  font-family: "Recoleta-Black" !important;
+  /* font-family: "Recoleta-Black" !important; */
   font-weight: 700 !important;
   font-size: var(--font-size-4) !important;
   /* font-family: "proxima-nova"; */
@@ -714,8 +714,8 @@ nav li:nth-child(3) a:before {
   }
 
   .outline {
-    color: var(--background);
-    -webkit-text-stroke: 0;
+    /* color: var(--background);
+    -webkit-text-stroke: 0; */
   }  
 
   .container .outline {
@@ -756,6 +756,7 @@ nav li:nth-child(3) a:before {
   .home-txt::after {
     width: 100% !important;
     opacity: 0.6 !important;
+    opacity: 0.8 !important;
   }
 
   .btn {
