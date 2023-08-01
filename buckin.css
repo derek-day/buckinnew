@@ -867,13 +867,13 @@ nav li:nth-child(3) a:before {
   }
 
   .drink-card {
-    width: 70% !important;
+    width: 65% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .drink-card img {
-    width: 75% !important;
+    width: 70% !important;
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 2rem 0 !important;
@@ -893,13 +893,13 @@ nav li:nth-child(3) a:before {
   }
 
   .cooler-card {
-    width: 70% !important;
+    width: 65% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .cooler-card img {
-    width: 75% !important;
+    width: 70% !important;
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 2rem 0 !important;
@@ -2180,13 +2180,13 @@ opacity: 0.825;
 .drink-btn-prev-mob:hover,
 .drink-btn-prev-mob:focus,
 .drink-btn-prev-mob:active {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .drink-btn-next-mob:hover,
 .drink-btn-next-mob:focus,
 .drink-btn-next-mob:active {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .cooler-btn-prev {
