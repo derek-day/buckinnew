@@ -2129,15 +2129,15 @@ opacity: 0.825;
 
 .slide-btn {
   position: absolute;
-  /* width: 50px;
-  height: 50px; */
+  width: 50px;
+  height: 50px;
   /* padding: 10px; */
   border: none;
   border-radius: 50%;
   z-index: 10px;
   cursor: pointer;
   /* background-color: #fff; */
-  /* background-image: var(--backgroundimage); */
+  background-image: var(--backgroundimage);
   font-size: 100%;
 }
 
@@ -2147,12 +2147,12 @@ opacity: 0.825;
 
 .drink-btn-prev {
   top: 55%;
-  left: 2%;
+  left: 3%;
 }
 
 .drink-btn-next {
   top: 55%;
-  right: 2%;
+  right: 3%;
 }
 
 .drink-btn-prev:hover,
@@ -2169,12 +2169,12 @@ opacity: 0.825;
 
 .drink-btn-prev-mob {
   top: 50%;
-  left: 1%;
+  left: 0.5%;
 }
 
 .drink-btn-next-mob {
   top: 50%;
-  right: 1%;
+  right: 0.5%;
 }
 
 .drink-btn-prev-mob:hover,
@@ -2191,12 +2191,12 @@ opacity: 0.825;
 
 .cooler-btn-prev {
   top: 55%;
-  left: 2%;
+  left: 3%;
 }
 
 .cooler-btn-next {
   top: 55%;
-  right: 2%;
+  right: 3%;
 }
 
 .cooler-btn-prev:hover,
