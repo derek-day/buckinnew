@@ -619,12 +619,30 @@ nav li:nth-child(3) a:before {
 }
 
 .home-img-mob {
-  display: block;
+  display: none;
 }
 
 .home-img-desk {
-  display: none;
+  display: block;
 }
+
+.home1 .home-img-desk{
+  scale: 0.7;
+} 
+
+.home1 .home-img-mob{
+  scale: 0.8;
+  margin: 1rem 0;
+} 
+
+.home2 .home-img-mob{
+  scale: 0.90;
+  margin: -2rem 0 rem;
+} 
+
+.home2 .home-img-desk{
+  scale: 0.9;
+} 
 
 /* .slider-desk {
   display: block;
@@ -742,13 +760,7 @@ nav li:nth-child(3) a:before {
     opacity: 1 !important;
   }
 
-  .home-img1 {
-    display: none !important;
-  }
 
-  .home-img2 {
-    display: block !important;
-  }
 
   .home-left {
     width: 100% !important;
