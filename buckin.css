@@ -893,7 +893,7 @@ nav li:nth-child(3) a:before {
   }
 
   .cooler-card {
-    width: 75% !important;
+    width: 70% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -2213,12 +2213,12 @@ opacity: 0.825;
 
 .cooler-btn-prev-mob {
   top: 50%;
-  left: 1%;
+  left: 0%;
 }
 
 .cooler-btn-next-mob {
   top: 50%;
-  right: 1%;
+  right: 0%;
 }
 
 .cooler-btn-prev-mob:hover,
