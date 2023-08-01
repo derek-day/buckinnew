@@ -764,8 +764,6 @@ nav li:nth-child(3) a:before {
     opacity: 1 !important;
   }
 
-
-
   .home-left {
     width: 100% !important;
     float: none !important;
@@ -865,6 +863,10 @@ nav li:nth-child(3) a:before {
     padding: 50px 5% 0px !important;
     margin-bottom: -8rem !important;
   }  
+
+  .container {
+    display: none !important;
+  }
 
   .centered {
     margin-top: 7rem;
