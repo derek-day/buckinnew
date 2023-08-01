@@ -667,7 +667,7 @@ nav li:nth-child(3) a:before {
 }
 
 #menu h4 {
-  font-size: 3rem !important;
+  /* font-size: 3rem !important; */
 }
 
 .store-header h4 {
@@ -676,6 +676,22 @@ nav li:nth-child(3) a:before {
 
 #contact {
   padding: 50px 5% 50px !important;
+}
+
+.slider {
+  display: block;
+}
+
+.slider-mob {
+  display: none;
+}
+
+.cooler-div {
+  margin-top:35rem;
+}
+
+#store {
+  padding: 40rem 5% 100px;
 }
 
 @media screen and (max-width: 949px) {
@@ -804,14 +820,29 @@ nav li:nth-child(3) a:before {
 
   #menu {
     margin-top: 0 !important;
+    padding: 8rem 0 0 !important;
   }
 
   #menu h2 {
     font-size: 8rem !important;
   }
 
-  #menu h4 {
+  /* #menu h4 {
     font-size: 2.4rem !important;
+    margin: 1rem 0 2rem !important;
+  } */
+
+  .menu-sub {
+    font-size: 2.2rem !important;
+    margin: 1rem 0 2rem !important;
+  }
+
+  .slider {
+    display: none;
+  }
+
+  .slider-mob {
+    display: block;
   }
 
   .store-header h2 {
@@ -829,20 +860,69 @@ nav li:nth-child(3) a:before {
   }
 
   .drink-overlay h3 {
-    font-size: 5rem !important;
+    font-size: 4.5rem !important;
   }
 
-  /* .slider-desk {
-    display: none;
+  .drink-card {
+    width: 75% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .drink-card img {
+    width: 75% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 2rem 0 !important;
+  }
+
+  .drink-card h4 {
+    padding: 1rem 0 0.5rem !important;
+    margin: 0 !important;
+  }
+
+  .drink-card p {
+    padding: 1rem 0 2rem !important;
+  }
+
+  .cooler-div {
+    margin-top: 16rem;
+  }
+
+  .cooler-card {
+    width: 75% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .cooler-card img {
+    width: 75% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 2rem 0 !important;
+  }
+
+  .cooler-card h4 {
+    padding: 1rem 0 0.5rem !important;
+    margin: 0 !important;
+  }
+
+  .cooler-card p {
+    padding: 1rem 0 2rem !important;
+  }
+
+  .slide-btn {
+    width: 40px !important;
+    height: 40px !important; 
   }
   
-  .slider-mob {
-    display: block;
-  }   */
-
   .cooler-overlay h3 {
     font-size: 5rem !important;
   }
+
+  #store {
+    padding: 20rem 5% 10rem !important;
+  }  
 
   .social-img {
     width: 100% !important;
@@ -860,7 +940,7 @@ nav li:nth-child(3) a:before {
   }
 
   #contact {
-    padding: 50px 5% 0px !important;
+    padding: 4rem 5% 0px !important;
     margin-bottom: 2rem !important;
   }  
 
@@ -1214,8 +1294,8 @@ nav li:nth-child(3) a:before {
   }
 
   section {
-    padding: 70px 5% 70px !important; 
-    padding: 50px 5% 50px !important; 
+    /* padding: 70px 5% 70px !important; 
+    padding: 50px 5% 50px !important;  */
   }
 
   .bullgap div {
@@ -1825,6 +1905,7 @@ span {
   margin-top: -75px;
   margin-bottom: 4em;
   text-align: center;
+  padding: 35rem 0% 70px;
 }
 
 #menuheader::after {
@@ -2005,6 +2086,13 @@ opacity: 0.825;
   overflow-x: clip;
 }
 
+.slider-mob {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow-x: clip;
+}
+
 .drink-slide {
   width: 100%;
   height: 350px;
@@ -2012,7 +2100,21 @@ opacity: 0.825;
   transition: all 0.5s;
 }
 
+.drink-slide-mob {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
 .cooler-slide {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.cooler-slide-mob {
   width: 100%;
   height: 350px;
   position: absolute;
@@ -2059,6 +2161,28 @@ opacity: 0.825;
   transform: scale(1.1);
 }
 
+.drink-btn-prev-mob {
+  top: 55%;
+  left: 2%;
+}
+
+.drink-btn-next-mob {
+  top: 55%;
+  right: 2%;
+}
+
+.drink-btn-prev-mob:hover,
+.drink-btn-prev-mob:focus,
+.drink-btn-prev-mob:active {
+  transform: scale(1.1);
+}
+
+.drink-btn-next-mob:hover,
+.drink-btn-next-mob:focus,
+.drink-btn-next-mob:active {
+  transform: scale(1.1);
+}
+
 .cooler-btn-prev {
   top: 55%;
   left: 2%;
@@ -2078,6 +2202,28 @@ opacity: 0.825;
 .cooler-btn-next:hover,
 .cooler-btn-next:focus,
 .cooler-btn-next:active {
+  transform: scale(1.1);
+}
+
+.cooler-btn-prev-mob {
+  top: 55%;
+  left: 2%;
+}
+
+.cooler-btn-next-mob {
+  top: 55%;
+  right: 2%;
+}
+
+.cooler-btn-prev-mob:hover,
+.cooler-btn-prev-mob:focus,
+.cooler-btn-prev-mob:active {
+  transform: scale(1.1);
+}
+
+.cooler-btn-next-mob:hover,
+.cooler-btn-next-mob:focus,
+.cooler-btn-next-mob:active {
   transform: scale(1.1);
 }
 

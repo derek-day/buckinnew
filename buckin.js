@@ -133,6 +133,44 @@ drinkPrevSlide.addEventListener("click", function () {
   });
 });
 
+//Drink Mob
+const drinkSlidesMob = document.querySelectorAll(".drink-slide-mob");
+
+drinkSlidesMob.forEach((drinkSlideMob, drinkIndxMob) => {
+    drinkSlideMob.style.transform = `translateX(${drinkIndxMob * 100}%)`;
+});
+
+const drinkNextSlideMob = document.querySelector(".drink-btn-next-mob");
+
+let drinkCurSlideMob = 0;
+let drinkMaxSlideMob = drinkSlidesMob.length - 1;
+
+drinkNextSlideMob.addEventListener("click", function () {
+  if (drinkCurSlideMob === drinkMaxSlideMob) {
+    drinkCurSlideMob = 0;
+  } else {
+    drinkCurSlideMob++;
+  }
+  drinkSlidesMob.forEach((drinkSlideMob, drinkIndxMob) => {
+    drinkSlideMob.style.transform = `translateX(${100 * (drinkIndxMob - drinkCurSlideMob)}%)`;
+  });
+});
+
+const drinkPrevSlideMob = document.querySelector(".drink-btn-prev-mob");
+
+drinkPrevSlideMob.addEventListener("click", function () {
+  if (drinkCurSlideMob === 0) {
+    drinkCurSlideMob = drinkMaxSlide;
+  } else {
+    drinkCurSlideMob--;
+  }
+
+  drinkSlidesMob.forEach((drinkSlideMob, drinkIndxMob) => {
+    drinkSlideMob.style.transform = `translateX(${100 * (drinkIndxMob - drinkCurSlideMob)}%)`;
+  });
+});
+
+
 // Cooler slides
 const coolerSlides = document.querySelectorAll(".cooler-slide");
 
@@ -167,5 +205,42 @@ coolerPrevSlide.addEventListener("click", function () {
 
   coolerSlides.forEach((coolerSlide, coolerIndx) => {
     coolerSlide.style.transform = `translateX(${100 * (coolerIndx - coolerCurSlide)}%)`;
+  });
+});
+
+//Cooler Mob
+const coolerSlidesMob = document.querySelectorAll(".cooler-slide-mob");
+
+coolerSlidesMob.forEach((coolerSlideMob, coolerIndxMob) => {
+    coolerSlideMob.style.transform = `translateX(${coolerIndxMob * 100}%)`;
+});
+
+const coolerNextSlideMob = document.querySelector(".cooler-btn-next-mob");
+
+let coolerCurSlideMob = 0;
+let coolerMaxSlideMob = coolerSlidesMob.length - 1;
+
+coolerNextSlideMob.addEventListener("click", function () {
+  if (coolerCurSlideMob === coolerMaxSlideMob) {
+    coolerCurSlideMob = 0;
+  } else {
+    coolerCurSlideMob++;
+  }
+  coolerSlidesMob.forEach((coolerSlideMob, coolerIndxMob) => {
+    coolerSlideMob.style.transform = `translateX(${100 * (coolerIndxMob - coolerCurSlideMob)}%)`;
+  });
+});
+
+const coolerPrevSlideMob = document.querySelector(".cooler-btn-prev-mob");
+
+coolerPrevSlideMob.addEventListener("click", function () {
+  if (coolerCurSlideMob === 0) {
+    coolerCurSlideMob = coolerMaxSlide;
+  } else {
+    coolerCurSlideMob--;
+  }
+
+  coolerSlidesMob.forEach((coolerSlideMob, coolerIndxMob) => {
+    coolerSlideMob.style.transform = `translateX(${100 * (coolerIndxMob - coolerCurSlideMob)}%)`;
   });
 });
