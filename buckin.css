@@ -815,7 +815,7 @@ nav li:nth-child(3) a:before {
   }
 
   .menu-back::after {
-    opacity: 0.45 !important;
+    opacity: 0.55 !important;
   }
 
   #menu {
@@ -835,6 +835,7 @@ nav li:nth-child(3) a:before {
   .menu-sub {
     font-size: 2.2rem !important;
     margin: 1rem 0 2rem !important;
+    margin: 0 !important;
   }
 
   .slider {
@@ -860,7 +861,7 @@ nav li:nth-child(3) a:before {
   }
 
   .drink-overlay h3 {
-    font-size: 4.5rem !important;
+    font-size: 4rem !important;
   }
 
   .drink-card {
@@ -877,12 +878,12 @@ nav li:nth-child(3) a:before {
   }
 
   .drink-card h4 {
-    padding: 1rem 0 0.5rem !important;
+    padding: 0.5rem 0 0.5rem !important;
     margin: 0 !important;
   }
 
   .drink-card p {
-    padding: 1rem 0 2rem !important;
+    padding: 0.5rem 0 2rem !important;
   }
 
   .cooler-div {
@@ -903,12 +904,12 @@ nav li:nth-child(3) a:before {
   }
 
   .cooler-card h4 {
-    padding: 1rem 0 0.5rem !important;
+    padding: 0.5rem 0 0.5rem !important;
     margin: 0 !important;
   }
 
   .cooler-card p {
-    padding: 1rem 0 2rem !important;
+    padding: 0.5rem 0 2rem !important;
   }
 
   .slide-btn {
@@ -2162,13 +2163,13 @@ opacity: 0.825;
 }
 
 .drink-btn-prev-mob {
-  top: 55%;
-  left: 2%;
+  top: 50%;
+  left: 0%;
 }
 
 .drink-btn-next-mob {
-  top: 55%;
-  right: 2%;
+  top: 50%;
+  right: 0%;
 }
 
 .drink-btn-prev-mob:hover,
