@@ -867,7 +867,7 @@ nav li:nth-child(3) a:before {
   }
 
   .drink-card {
-    width: 75% !important;
+    width: 70% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -2169,12 +2169,12 @@ opacity: 0.825;
 
 .drink-btn-prev-mob {
   top: 50%;
-  left: 1%;
+  left: 0%;
 }
 
 .drink-btn-next-mob {
   top: 50%;
-  right: 1%;
+  right: 0%;
 }
 
 .drink-btn-prev-mob:hover,
