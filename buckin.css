@@ -2164,12 +2164,12 @@ opacity: 0.825;
 
 .drink-btn-prev-mob {
   top: 50%;
-  left: 0%;
+  left: 1%;
 }
 
 .drink-btn-next-mob {
   top: 50%;
-  right: 0%;
+  right: 1%;
 }
 
 .drink-btn-prev-mob:hover,
@@ -2207,13 +2207,13 @@ opacity: 0.825;
 }
 
 .cooler-btn-prev-mob {
-  top: 55%;
-  left: 2%;
+  top: 50%;
+  left: 1%;
 }
 
 .cooler-btn-next-mob {
-  top: 55%;
-  right: 2%;
+  top: 50%;
+  right: 1%;
 }
 
 .cooler-btn-prev-mob:hover,
