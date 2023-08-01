@@ -815,7 +815,7 @@ nav li:nth-child(3) a:before {
   }
 
   .menu-back::after {
-    opacity: 0.55 !important;
+    opacity: 0.65 !important;
   }
 
   #menu {
