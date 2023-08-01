@@ -867,7 +867,7 @@ nav li:nth-child(3) a:before {
   }
 
   .drink-card {
-    width: 65% !important;
+    width: 70% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -889,11 +889,11 @@ nav li:nth-child(3) a:before {
   }
 
   .cooler-div {
-    margin-top: 26rem;
+    margin-top: 20rem;
   }
 
   .cooler-card {
-    width: 65% !important;
+    width: 70% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
