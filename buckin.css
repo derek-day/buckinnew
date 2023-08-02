@@ -63,6 +63,11 @@
   src: url('assets/fonts/Korolev Bold.ttf') format("truetype");
 }
 
+@font-face {
+  font-family: "Sreda";
+  src: url('assets/fonts/Sreda.ttf') format("truetype");
+}
+
 :root {
   --txt-color-dark: #28190E; 
   --background: #fdf5e6;
@@ -201,7 +206,6 @@ label {
   font-family: "Recoleta-Bold";
   font-weight: 600;
   font-size: var(--font-size-2);
-  font-size: 2rem;
   /* font-family: "Primana Thin"; */
   padding-left: 1em;
   padding-bottom: 0.25em;
@@ -761,6 +765,7 @@ nav li:nth-child(3) a:before {
 
   .btn {
     margin-top: 1.5rem !important;
+    font-size: 1.8rem !important;
   }
 
   .introtext {
@@ -770,7 +775,7 @@ nav li:nth-child(3) a:before {
   }
 
   .home-txt h3 {
-    font-size: 2.2rem !important;
+    font-size: 1.8rem !important;
     line-height: 2.7rem !important;
   }
 
@@ -948,6 +953,10 @@ nav li:nth-child(3) a:before {
     padding: 4rem 5% 0px !important;
     margin-bottom: 2rem !important;
   }  
+
+  #fcf-form h4 {
+    font-size: 2.4rem !important;
+  }
 
   .container {
     display: none !important;
@@ -1406,7 +1415,7 @@ nav li:nth-child(3) a:before {
 }
 
 section {
-  padding: 50px 5% 60px;
+  padding: 5rem 5% 5rem;
 }
   
 .home {
@@ -1615,7 +1624,7 @@ section {
   letter-spacing: 0.3px;
   /* font-size: 1.1rem; */
   font-size: 1.25rem;
-  font-size: 2rem !important;
+  font-size: 2rem;
   font-weight: 400;
   transition: background-color 1s;
   text-decoration: none;
