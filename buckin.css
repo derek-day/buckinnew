@@ -728,6 +728,7 @@ nav li:nth-child(3) a:before {
 
   .about-profile {
     translate: 0 -4rem !important;
+    padding: 8rem 5% !important;
   }
 
   .outline {
@@ -832,7 +833,7 @@ nav li:nth-child(3) a:before {
   }
 
   .menu-back {
-    padding: 0 5%;
+    padding: 2rem 5% 0;
   }
 
   .menu-back::after {
@@ -1117,13 +1118,13 @@ nav li:nth-child(3) a:before {
   }
 
   nav li:nth-child(2) {
-    margin-right: 64px;
+    margin-right: 67px;
     margin-left: 0px;
     padding-left: 40px;
   }
   
   nav li:nth-child(4) {
-    margin-left: 96px;
+    margin-left: 94px;
     margin-right: -60px;
     padding-right: 0px;
   }  
