@@ -686,7 +686,7 @@ nav li:nth-child(3) a:before {
 
 #contact {
   padding: 50px 5% 50px !important;
-  background-image: url('assets/images/contact10.png');
+  background-image: url('assets/images/contact11.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -971,6 +971,7 @@ nav li:nth-child(3) a:before {
     padding: 4rem 5% 0px !important;
     margin-bottom: 2rem !important;
     translate: 0 -5rem;
+    background-image: url("assets/images/contactmob10.png");
   }  
 
   #fcf-form h4 {
@@ -1061,6 +1062,10 @@ nav li:nth-child(3) a:before {
   .introtext {
     font-size: 8rem !important;
   }
+
+  #contact {
+    background-image: url('assets/images/contact30.png') !important;
+  }  
 
 }
 
