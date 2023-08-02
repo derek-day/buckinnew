@@ -746,6 +746,7 @@ nav li:nth-child(3) a:before {
 
   .mobile-logo {
     width: 6rem;
+    margin-top: -1rem;
   }
 
   .navi-list li {
