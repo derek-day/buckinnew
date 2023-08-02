@@ -182,6 +182,7 @@ h2 {
 
 h3 {
   font-size: var(--font-size-5) !important;
+  font-size: 2.4rem !important;
   line-height: 36px !important;
 }
 
@@ -229,6 +230,7 @@ button,
   /* font-family: "Recoleta-Black" !important; */
   font-weight: 700 !important;
   font-size: var(--font-size-4) !important;
+  font-size: 2rem !important;
   /* font-family: "proxima-nova"; */
 
 }
@@ -717,6 +719,15 @@ nav li:nth-child(3) a:before {
 
   .home1 {
     animation: returnToOrigin 0.5s ease-out forwards, scroll 150s linear infinite !important;
+    translate: 0 5rem !important;
+  }
+
+  .home2 {
+    translate: 0 5rem !important;
+  }
+
+  .about-profile {
+    translate: 0 -4rem !important;
   }
 
   .outline {
@@ -954,6 +965,7 @@ nav li:nth-child(3) a:before {
   #contact {
     padding: 4rem 5% 0px !important;
     margin-bottom: 2rem !important;
+    translate: 0 -5rem;
   }  
 
   #fcf-form h4 {
@@ -1032,12 +1044,12 @@ nav li:nth-child(3) a:before {
   }  
 
   .home-txt {
-    margin: 18% 10% 15% 14% !important;
+    margin: 24% 10% 15% 14% !important;
     max-width: 750px;
   }
 
   .home-txt2 {
-    margin: 18% 10% 15% 14% !important;
+    margin: 24% 10% 15% 14% !important;
     max-width: 750px;
   }
 
@@ -1211,12 +1223,12 @@ nav li:nth-child(3) a:before {
   }
 
   .home-txt {
-    margin: 15% 10% 15% 10%;
+    margin: 21% 10% 15% 10%;
     max-width: 750px;
   }
 
   .home-txt2 {
-    margin: 15% 10% 15% 10%;
+    margin: 21% 10% 15% 10%;
     max-width: 750px;
   }
 
