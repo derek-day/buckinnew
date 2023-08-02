@@ -391,7 +391,20 @@
             <h2 class="fcf-h3"><span class="tapered">Contact</span></h2>
             <h4 style="font-size:1.3rem;margin-bottom:1.5em;">Want us at your event? Message us here!</h4>        
         
-            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">    
+            <div class="contact">
+              <form action="https://formspree.io/f/mbjqwldv" method="POST">
+                <label for="Name" class="fcf-label">Name</label>
+                <input class="fcf-label fcf-input-group fcf-form-control" type="text" name="name" style="font-family: 'Recoleta-Medium';color: var(--txt-color-dark);margin-bottom: 2rem;" required />
+                <label for="Email" class="fcf-label">Email</label>
+                <input class="fcf-label fcf-input-group fcf-form-control" type="email" name="_replyto" style="color: var(--txt-color-dark);margin-bottom: 2rem;" required />
+                <label for="Message" class="fcf-label">Message</label>
+                <textarea class="fcf-label fcf-input-group fcf-form-control" name="message" rows="6" maxlength="3000" style="color: var(--txt-color-dark);margin-bottom: 2rem;" required ></textarea>
+                <input id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" type="submit" value="SEND" />
+              </form>
+            </div>
+
+
+            <!-- <form id="fcf-form-id" class="fcf-form-class" method="POST" action="contact-form-process.php">    
                 <div class="fcf-form-group">
                     <label for="Name" class="fcf-label">Name</label>
                     <div class="fcf-input-group">
@@ -416,7 +429,7 @@
                 <div class="fcf-form-group">
                     <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">SEND</button>
                 </div>
-            </form>
+            </form> -->
             </div>
         </div>
       </div>
