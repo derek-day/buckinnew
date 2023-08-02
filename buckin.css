@@ -1041,6 +1041,10 @@ nav li:nth-child(3) a:before {
     height: 82.5dvh;
   }
 
+  .home-img-desk {
+    margin-top: 0 !important;
+  }
+
   .about-txt {
     /* transform: translateY(50px); */
     /* transform: translateY(10px); */
