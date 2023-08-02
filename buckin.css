@@ -467,6 +467,7 @@ p {
 .nav-toggle-label span::after {
   display: block;
   background: black;
+  background: var(--txt-color-dark);
   height: 3.5px;
   width: 2em;
   border-radius: 2px;
@@ -499,7 +500,8 @@ nav {
   /* background-image: url("noise.png"),linear-gradient(#ebe2cb,#ebe2cb); */
   /* background-image: url("noise.png"),linear-gradient(#FAF0E4,#FAF0E4); */
   /* background-image: url("noise.png"),linear-gradient(#f6e4ce,#f6e4ce);     */
-  background-image: var(--backgroundimage);
+  /* background-image: var(--backgroundimage); */
+  background-color: var(--background);
 }
   
 nav ul {

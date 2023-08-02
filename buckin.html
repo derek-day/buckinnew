@@ -19,7 +19,7 @@
   <body class="preload">
 
     <div id="header">
-      <a style="display: contents;" href="#home"><img class="mobile-logo" src="assets/images/buckinlogotext2.webp"></a>
+      <a style="display: contents;" href="#top"><img class="mobile-logo" src="assets/images/buckinlogotext2.webp"></a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <nav class="navi">
         <ul class="navi-list">
@@ -402,35 +402,7 @@
                 <input id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" type="submit" value="SEND" />
               </form>
             </div>
-
-
-            <!-- <form id="fcf-form-id" class="fcf-form-class" method="POST" action="contact-form-process.php">    
-                <div class="fcf-form-group">
-                    <label for="Name" class="fcf-label">Name</label>
-                    <div class="fcf-input-group">
-                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Email" class="fcf-label">Email</label>
-                    <div class="fcf-input-group">
-                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Message" class="fcf-label">Message</label>
-                    <div class="fcf-input-group">
-                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">SEND</button>
-                </div>
-            </form> -->
-            </div>
+          </div>
         </div>
       </div>
       <div class="social-img social-img2" style="rotate:-3deg;padding:5%;background-position:center;background-size:contain;margin-top:4rem;"></div>
@@ -464,7 +436,7 @@
 
     
     <footer class="">
-      <img class="footer-logo" src="assets/images/footer.webp">
+      <a style="display: contents; position:absolute;" href="#top"><img class="footer-logo" src="assets/images/footer.webp"></a>
 
       <div class="footer-links">
         <a class="footer-link" href="#menu">Menu</a>
@@ -482,13 +454,8 @@
 
 
     <script>
-      $( 'nav a' ).on("click", function(){
-        $( '.nav-toggle-label').style.color = "blue";
-        $('nav a').style.scale="1.5";
-        // document.getElementsByClassName("navi").style.opacity = "0.5";
-        // document.getElementsByClassName("navi").style.display = "none";
-        // $('.navi').style.opacity="0";
-        // $('nav a').style.transition=opacity 150ms ease-in-out;
+      $( 'nav a' ).click(function() {
+        $( ".nav-toggle" ).prop( "checked", false );
       });
     </script>
     <script>document.body.classList.remove('preload')</script>
