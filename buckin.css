@@ -773,7 +773,7 @@ nav li:nth-child(3) a:before {
     text-align: center;
     float: none !important;
     padding-bottom: 6rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .home-txt::after {
