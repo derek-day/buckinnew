@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Recoleta-Black";
   src: url('assets/fonts/Recoleta-Black.ttf') format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -11,16 +12,19 @@
 @font-face {
   font-family: "Recoleta-Medium";
   src: url('assets/fonts/Recoleta-Medium.ttf') format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Recoleta-SemiBold";
   src: url('assets/fonts/Recoleta-SemiBold.ttf') format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Recoleta-Bold";
   src: url('assets/fonts/Recoleta-Bold.ttf') format("truetype");
+  font-display: swap;
 }
 
 @font-face {
