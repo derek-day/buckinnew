@@ -689,7 +689,8 @@ nav li:nth-child(3) a:before {
 }
 
 #contact {
-  padding: 50px 5% 50px !important;
+  margin-top: 6rem !important;
+  padding: 5rem 5% 50px !important;
   /* background-image: url('assets/images/contact11.png'); */
   background-image: url('https://f000.backblazeb2.com/file/BuckinBean/contact11.png');
   background-size: contain;
@@ -709,7 +710,7 @@ nav li:nth-child(3) a:before {
 }
 
 #store {
-  padding: 40rem 5% 100px;
+  padding: 40rem 5% 12rem;
 }
 
 .menu-sub {
