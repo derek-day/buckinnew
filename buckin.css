@@ -771,7 +771,8 @@ nav li:nth-child(3) a:before {
   }
 
   .home1 {
-    background-image: url(assets/images/bullbl4.webp) !important;
+    /* background-image: url(assets/images/bullbl4.webp) !important; */
+    background-image: url(https://f000.backblazeb2.com/file/BuckinBean/bullbl5.png) !important;
   }
 
   .home-txt {
