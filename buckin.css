@@ -181,7 +181,7 @@ h2 {
   /* font-size: 55px !important; */
   line-height: 80px !important;
   /* padding-bottom: 1.5rem !important; */
-  padding-bottom: 20px !important;
+  padding-bottom: 1.5rem !important;
 }
 
 h3 {
@@ -978,6 +978,7 @@ nav li:nth-child(3) a:before {
     margin-bottom: 2rem !important;
     translate: 0 -5rem;
     background-image: url("assets/images/contactmob10.png");
+    background-image: url("assets/images/contactmob16.png");
   }  
 
   #fcf-form h4 {
