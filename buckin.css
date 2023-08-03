@@ -712,6 +712,10 @@ nav li:nth-child(3) a:before {
   padding: 40rem 5% 100px;
 }
 
+.menu-sub {
+  font-size: 3rem !important;
+}
+
 @media screen and (max-width: 949px) {
   #header {
     padding: 1rem 0 1rem;
