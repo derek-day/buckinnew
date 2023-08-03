@@ -686,7 +686,8 @@ nav li:nth-child(3) a:before {
 
 #contact {
   padding: 50px 5% 50px !important;
-  background-image: url('assets/images/contact11.png');
+  /* background-image: url('assets/images/contact11.png'); */
+  background-image: url('https://f000.backblazeb2.com/file/BuckinBean/contact11.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
