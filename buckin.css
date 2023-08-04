@@ -692,8 +692,7 @@ nav li:nth-child(3) a:before {
   margin-top: 6rem !important;
   padding: 5rem 5% 50px !important;
   /* background-image: url('assets/images/contact11.png'); */
-  background-image: url('https://f000.backblazeb2.com/file/BuckinBean/contact11.png');
-  background-image: url('assets/images/contactmac5.png');
+  background-image: url('https://f000.backblazeb2.com/file/BuckinBean/contactmac5.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -984,8 +983,7 @@ nav li:nth-child(3) a:before {
     padding: 4rem 5% 0px !important;
     margin-bottom: 2rem !important;
     translate: 0 -5rem;
-    background-image: url("assets/images/contactmob10.png");
-    background-image: url("assets/images/contactmob16.png");
+    background-image: url("https://f000.backblazeb2.com/file/BuckinBean/contactmob16.png");
   }  
 
   #fcf-form h4 {
@@ -1082,7 +1080,7 @@ nav li:nth-child(3) a:before {
   }
 
   #contact {
-    background-image: url('assets/images/contact30.png') !important;
+    background-image: url('https://f000.backblazeb2.com/file/BuckinBean/contact30.png') !important;
   }  
 
 }
